@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <package name="employee" namespace="/employee" extends="struts-default">
+        <action name="login" class="action.employee.LoginAction">
+            <result name="0" type="redirect">/admin/store</result>
+            <result name="1" type="redirect">/manager/report</result>
+            <result name="2" type="redirect">/head/plan</result>
+            <result name="3" type="redirect">/branch/trade</result>
+            <result name="error">/login-error.html</result>
+        </action>
+    </package>
+
+    <package name="admin" namespace="/admin" extends="struts-default">
+        <action name="store" class="action.employee.admin.StoreAction" method="execute">
+            <result name="success">/admin-store.jsp</result>
+        </action>
+
+        <action name="removeStore" class="action.employee.admin.StoreAction" method="executeRemoveStore">
+            <result name="success" type="redirect">/admin/store</result>
+        </action>
+
+        <action name="editStore" class="action.employee.admin.StoreAction" method="editStore">
+            <result name="success" type="redirect">/admin/store</result>
+        </action>
+
+        <action name="addStore" class="action.employee.admin.StoreAction" method="addStore">
+            <result name="success" type="redirect">/admin/store</result>
+        </action>
+
+        <action name="employee" class="action.employee.admin.EmployeeAction" method="execute">
+            <result name="success">/admin-employee.jsp</result>
+        </action>
+
+        <action name="addEmployee" class="action.employee.admin.EmployeeAction" method="addEmployee">
+            <result name="success" type="redirect">/admin/employee</result>
+        </action>
+
+        <action name="removeEmployee" class="action.employee.admin.EmployeeAction" method="removeEmployee">
+            <result name="success" type="redirect">/admin/employee</result>
+        </action>
+
+        <action name="editEmployee" class="action.employee.admin.EmployeeAction" method="editEmployee">
+            <result name="success" type="redirect">/admin/employee</result>
+        </action>
+    </package>
+
+    <package name="manager" namespace="/manager" extends="struts-default">
+        <action name="report" class="action.employee.manager.ReportAction" method="execute">
+            <result name="success">/manager-report.jsp</result>
+        </action>
+        <action name="approval" class="action.employee.manager.ApprovalAction" method="execute">
+            <result name="success">/manager-approval.jsp</result>
+        </action>
+        <action name="setStatus" class="action.employee.manager.ApprovalAction" method="setStatus">
+            <result name="success" type="redirect">/manager/approval</result>
+        </action>
+    </package>
+
+    <package name="head" namespace="/head" extends="struts-default">
+        <action name="plan" class="action.employee.head.PlanAction" method="execute">
+            <result name="success">/head-plan.jsp</result>
+        </action>
+
+        <action name="addPlan" class="action.employee.head.PlanAction" method="addPlan">
+            <result name="success" type="redirect">/head/plan</result>
+        </action>
+        <action name="removePlan" class="action.employee.head.PlanAction" method="removePlan">
+            <result name="success" type="redirect">/head/plan</result>
+        </action>
+        <action name="editPlan" class="action.employee.head.PlanAction" method="editPlan">
+            <result name="success" type="redirect">/head/plan</result>
+        </action>
+
+        <action name="history" class="action.employee.head.HistoryAction" method="execute">
+            <result name="success">/head-history.jsp</result>
+        </action>
+        <action name="dessert" class="action.employee.head.DessertAction" method="execute">
+            <result name="success">/head-dessert.jsp</result>
+        </action>
+        <action name="addDessert" class="action.employee.head.DessertAction" method="addDessert">
+            <result name="success" type="redirect">/head/dessert</result>
+        </action>
+        <action name="removeDessert" class="action.employee.head.DessertAction" method="removeDessert">
+            <result name="success" type="redirect">/head/dessert</result>
+        </action>
+        <action name="editDessert" class="action.employee.head.DessertAction" method="editDessert">
+            <result name="success" type="redirect">/head/dessert</result>
+        </action>
+    </package>
+
+    <package name="branch" namespace="/branch" extends="struts-default">
+
+    </package>
+
+</struts>

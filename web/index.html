@@ -1,0 +1,147 @@
+<!--
+  Created by IntelliJ IDEA.
+  User: wn13
+  Date: 2016/2/12
+  Time: 19:27
+  To change this template use File | Settings | File Templates.
+-->
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Dessert House</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/cover.css" rel="stylesheet">
+
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script>
+        $(document).ready(function(){
+            var uname= $.cookie('uname');
+            if(uname!=null){
+                window.location.href="/DessertHouse/user/main";
+            }
+        });
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="site-wrapper">
+
+    <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+            <div class="masthead clearfix">
+                <div class="inner">
+                    <h3 class="masthead-brand">Dessert House</h3>
+                    <nav>
+                        <ul class="nav masthead-nav">
+                            <li><a href="#!" data-toggle="modal" data-target="#employeeLoginModal">Employee</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="inner cover">
+                <h1 class="cover-heading">甜品港湾，恬美生活</h1>
+                <p class="lead">我们坚信，幸福是有味觉的。因此，我们严选优质原料，用烘焙传递内心的感动，用诺言守护一生的幸福。走进Dessert House，享受您的恬美生活。</p>
+                <p class="lead">
+                    <a href="#!" class="btn btn-lg btn-default" data-toggle="modal" data-target="#userLoginModal">会员登录</a>
+                </p>
+                <a href="#!" id="regEnter" data-toggle="modal" data-target="#userRegModal">会员注册</a>
+            </div>
+
+
+            <div class="mastfoot">
+                <div class="inner">
+                    <p>Developed by <a href="#">王宁131250079</a>, EMail <a href="#">wn13@software.nju.edu.cn</a>.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<!-- ------------------用户登录Modal-------------------------------- -->
+<div class="modal fade" id="userLoginModal" tabindex="-1" role="dialog" aria-labelledby="会员登录Modal">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h3 class="modal-title" id="userLogTtl">会员登录</h3>
+            </div>
+            <form action="/DessertHouse/user/login" method="post">
+            <div class="modal-body">
+                <input type="text" class="form-control" name="user.uid" placeholder="请输入会员卡号"/><br/>
+                <input type="password" class="form-control" name="user.upswd" placeholder="请输入密码"/><br/>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">返回</button>
+                <button type="button submit" class="btn btn-primary">登录</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="userRegModal" tabindex="-1" role="dialog" aria-labelledby="会员注册Modal">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h3 class="modal-title" id="userRegTtl">会员注册</h3>
+            </div>
+            <form action="/DessertHouse/user/register" method="post">
+            <div class="modal-body">
+                <input type="text" class="form-control" name="user.uname" placeholder="请输入姓名"/><br/>
+                <input type="password" class="form-control" name="user.upswd" placeholder="请输入密码"/><br/>
+                <input type="text" class="form-control" name="user.uage" placeholder="请输入年龄"/><br/>
+                <div>请选择性别：&nbsp;<input type="radio" name="user.usex" value="1" /> 男&nbsp;
+                <input type="radio" name="user.usex" value="0" /> 女</div><br/>
+                <input type="text" class="form-control" name="user.uaddr" placeholder="请输入住址"/><br/>
+                <input type="text" class="form-control" name="user.ucard" placeholder="请输入银行卡号"/>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">返回</button>
+                <button type="button submit" class="btn btn-primary">提交</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- ------------------员工登录Modal-------------------------------- -->
+<div class="modal fade" id="employeeLoginModal" tabindex="-1" role="dialog" aria-labelledby="员工登录Modal">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h3 class="modal-title" id="employeeLogTtl">员工登录</h3>
+            </div>
+            <form action="/DessertHouse/employee/login" method="post">
+                <div class="modal-body">
+                    <input type="text" class="form-control" name="employee.ename" placeholder="请输入员工ID"/><br/>
+                    <input type="password" class="form-control" name="employee.epswd" placeholder="请输入密码"/><br/>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">返回</button>
+                    <button type="button submit" class="btn btn-primary">登录</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <package name="user" namespace="/user" extends="struts-default">
+        <action name="register" class="action.user.RegisterAction">
+            <result name="success">/register-success.jsp</result>
+            <result name="error" type="redirect">/index.html</result>
+        </action>
+        <action name="login" class="action.user.LoginAction">
+            <result name="success" type="redirect">/user/main</result>
+            <result name="error">/login-error.html</result>
+        </action>
+        <action name="main" class="action.user.MainAction" method="execute">
+            <result name="success">/user-main.jsp</result>
+        </action>
+        <action name="order" class="action.user.OrderAction" method="execute">
+            <result name="success">/user-order.jsp</result>
+        </action>
+        <action name="vip" class="action.user.VIPAction" method="execute">
+            <result name="success">/user-vip.jsp</result>
+        </action>
+        <action name="password" class="action.user.PersonalAction" method="executePassword">
+            <result name="success">/user-password.jsp</result>
+        </action>
+        <action name="profile" class="action.user.PersonalAction" method="executeProfile">
+            <result name="success">/user-profile.jsp</result>
+        </action>
+        <action name="changePassword" class="action.user.PersonalAction" method="changePassword">
+            <result name="success">/user-changePswdSuccess.html</result>
+            <result name="error">/user-changePswdError.html</result>
+        </action>
+        <action name="changeProfile" class="action.user.PersonalAction" method="changeProfile">
+            <result name="success">/user-changeProfileSuccess.html</result>
+        </action>
+        <action name="destory" class="action.user.PersonalAction" method="destory">
+            <result name="success" type="redirect">/index</result>
+        </action>
+        <action name="recharge" class="action.user.VIPAction" method="recharge">
+            <result name="success" type="redirect">/user/vip</result>
+        </action>
+    </package>
+</struts>
