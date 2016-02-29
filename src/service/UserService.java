@@ -33,4 +33,10 @@ public interface UserService {
     void changeProfile(User user);
     void destoryUser(int uid);
     void recharge(User user,double money);
+
+    /***
+     * 登录时，检查用户最近一次激活时间，若距今1年并且目前余额小于1.0则状态变为暂停/停止
+     * @param uid
+     */
+    void checkStatus(int uid);
 }

@@ -98,6 +98,11 @@ public class UserServiceImpl implements UserService {
         userDao.updateRechargeTable(user.getUid(),money,timeNow);
     }
 
+    @Override
+    public void checkStatus(int uid) {
+        userDao.checkStatusWhileLogin(uid);
+    }
+
     private int generateUid(){
         return 1000000+userDao.countUserNum();
     }

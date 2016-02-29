@@ -17,6 +17,7 @@ public class LoginAction extends ActionSupport {
 
     @Override
     public String execute() throws Exception {
+        service.checkStatus(user.getUid());
         if(service.login(user)){
             cookie.addCookie("uname",service.findUser("uid",user.getUid()).get(0).getUname());
             cookie.addCookie("uid",String.valueOf(user.getUid()));

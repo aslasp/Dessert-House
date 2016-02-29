@@ -80,4 +80,6 @@ public interface UserDao {
     void changeUstatus(int uid,int ustatus);
 
     void updateRechargeTable(int uid,double money,String date);
+
+    void checkStatusWhileLogin(int uid);
 }

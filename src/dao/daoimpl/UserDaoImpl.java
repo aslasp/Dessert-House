@@ -8,7 +8,10 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 
 /**
  * Created by wn13 on 2016/2/13.
@@ -256,6 +259,73 @@ public class UserDaoImpl implements UserDao {
             daoHelper.closePreparedStatement(stmt);
             daoHelper.closeConnection(con);
         }
+    }
+
+    @Override
+    public void checkStatusWhileLogin(int uid) {
+        Connection con=daoHelper.getConnection();
+        PreparedStatement stmt=null;
+        ResultSet rs=null;
+        double ubalance=1.0;
+        int ustatus=1;
+        String utimeStr="";
+        try {
+            stmt=con.prepareStatement("select ubalance,ustatus,uactivate_time from user where uid=?;");
+            stmt.setInt(1,uid);
+            rs=stmt.executeQuery();
+            while (rs.next()){
+                ubalance=rs.getDouble(1);
+                ustatus=rs.getInt(2);
+                utimeStr=rs.getString(3);
+            }
+        }catch (SQLException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }finally {
+            daoHelper.closeResult(rs);
+            daoHelper.closePreparedStatement(stmt);
+            daoHelper.closeConnection(con);
+        }
+        //-----------判断是否大于1年------------------------
+        SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        Calendar cal=Calendar.getInstance();
+        int between=daysBetween(utimeStr,sdf.format(cal.getTime()));
+        if(ustatus==2 && between>=365*2){
+            //--------停止其账号---------
+            changeUstatus(uid,3);
+            return;
+        }
+        if(between>=365 && ubalance<1.0 && ustatus==1){
+            changeUstatus(uid,2);
+            return;
+        }
+    }
+
+    /***
+     * 判断两个日期之间差多少天
+     * @param smdate
+     * @param bdate
+     * @return
+     * @throws ParseException
+     */
+    public static int daysBetween(String smdate,String bdate){
+        SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        Calendar cal = Calendar.getInstance();
+        try {
+            cal.setTime(sdf.parse(smdate));
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        long time1 = cal.getTimeInMillis();
+        try {
+            cal.setTime(sdf.parse(bdate));
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        long time2 = cal.getTimeInMillis();
+        long between_days=(time2-time1)/(1000*3600*24);
+
+        return Integer.parseInt(String.valueOf(between_days));
     }
 
     /***
