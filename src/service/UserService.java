@@ -1,5 +1,7 @@
 package service;
 
+import beans.BonusRecord;
+import beans.RechargeRecord;
 import beans.User;
 
 import java.util.ArrayList;
@@ -39,4 +41,9 @@ public interface UserService {
      * @param uid
      */
     void checkStatus(int uid);
+
+    boolean useBonus(User user,double useBonus);
+
+    ArrayList<RechargeRecord> getRechargeHistory(int uid);
+    ArrayList<BonusRecord> getBonusHistory(int uid);
 }

@@ -1,5 +1,7 @@
 package dao.daoimpl;
 
+import beans.BonusRecord;
+import beans.RechargeRecord;
 import beans.User;
 import dao.DaoHelper;
 import dao.UserDao;
@@ -298,6 +300,107 @@ public class UserDaoImpl implements UserDao {
         if(between>=365 && ubalance<1.0 && ustatus==1){
             changeUstatus(uid,2);
             return;
+        }
+    }
+
+    @Override
+    public void useBonus(int uid, double use, double bonusNow, double balanceNow) {
+        useBonus_user(uid,bonusNow,balanceNow);
+        useBonus_bonus(uid,use);
+    }
+
+    @Override
+    public ArrayList<RechargeRecord> getRechargeHistory(int uid) {
+        Connection con = daoHelper.getConnection();
+        PreparedStatement stmt = null;
+        ResultSet rs = null;
+        ArrayList<RechargeRecord> list = new ArrayList<>();
+        try {
+            stmt = con.prepareStatement("select * from recharge where uid=? order by rtime desc;");
+            stmt.setInt(1,uid);
+            rs = stmt.executeQuery();
+            while (rs.next()) {
+                RechargeRecord tmp = new RechargeRecord();
+                tmp.setUid(rs.getInt(1));
+                tmp.setRmoney(rs.getDouble(2));
+                tmp.setRtime(rs.getString(3));
+                list.add(tmp);
+            }
+        } catch (SQLException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        } finally {
+            daoHelper.closeResult(rs);
+            daoHelper.closePreparedStatement(stmt);
+            daoHelper.closeConnection(con);
+        }
+        return list;
+    }
+
+    @Override
+    public ArrayList<BonusRecord> getBonusHistory(int uid) {
+        Connection con = daoHelper.getConnection();
+        PreparedStatement stmt = null;
+        ResultSet rs = null;
+        ArrayList<BonusRecord> list = new ArrayList<>();
+        try {
+            stmt = con.prepareStatement("select * from use_bonus where uid=? order by utime desc;");
+            stmt.setInt(1,uid);
+            rs = stmt.executeQuery();
+            while (rs.next()) {
+                BonusRecord tmp = new BonusRecord();
+                tmp.setUid(rs.getInt(1));
+                tmp.setUse(rs.getDouble(2));
+                tmp.setUseTime(rs.getString(3));
+                list.add(tmp);
+            }
+        } catch (SQLException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        } finally {
+            daoHelper.closeResult(rs);
+            daoHelper.closePreparedStatement(stmt);
+            daoHelper.closeConnection(con);
+        }
+        return list;
+    }
+
+    private void useBonus_user(int uid,double bonusNow,double balanceNow){
+        Connection con=daoHelper.getConnection();
+        PreparedStatement stmt=null;
+        try {
+            stmt=con.prepareStatement("update user set ubonus=?,ubalance=? where uid=?;");
+            stmt.setDouble(1,bonusNow);
+            stmt.setDouble(2,balanceNow);
+            stmt.setInt(3,uid);
+            stmt.executeUpdate();
+        }catch (SQLException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }finally {
+            daoHelper.closePreparedStatement(stmt);
+            daoHelper.closeConnection(con);
+        }
+    }
+
+    private void useBonus_bonus(int uid,double use){
+        SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        Calendar cal=Calendar.getInstance();
+        String date=sdf.format(cal.getTime());
+        Connection con=daoHelper.getConnection();
+        PreparedStatement stmt=null;
+        try {
+            stmt=con.prepareStatement("insert into use_bonus (uid,bonus,utime) values (?,?,?);");
+            stmt.setInt(1,uid);
+            stmt.setDouble(2,use);
+            stmt.setString(3,date);
+            stmt.executeUpdate();
+        }catch (SQLException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }finally {
+            daoHelper.closePreparedStatement(stmt);
+            daoHelper.closeConnection(con);
         }
     }
 

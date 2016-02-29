@@ -11,6 +11,7 @@ import service.serviceimpl.UserServiceImpl;
 public class VIPAction extends ActionSupport {
     private User user;
     private double money;
+    private double useBonus;
     private UserService service=new UserServiceImpl();
     @Override
     public String execute() throws Exception {
@@ -20,6 +21,13 @@ public class VIPAction extends ActionSupport {
     public String recharge(){
         service.recharge(user,money);
         return SUCCESS;
+    }
+
+    public String useBonus(){
+        if(service.useBonus(user,useBonus)){
+            return SUCCESS;
+        }else
+            return ERROR;
     }
 
     public User getUser() {
@@ -36,5 +44,13 @@ public class VIPAction extends ActionSupport {
 
     public void setMoney(double money) {
         this.money = money;
+    }
+
+    public double getUseBonus() {
+        return useBonus;
+    }
+
+    public void setUseBonus(double useBonus) {
+        this.useBonus = useBonus;
     }
 }

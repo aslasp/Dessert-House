@@ -1,5 +1,7 @@
 package dao;
 
+import beans.BonusRecord;
+import beans.RechargeRecord;
 import beans.User;
 
 import java.util.ArrayList;
@@ -82,4 +84,9 @@ public interface UserDao {
     void updateRechargeTable(int uid,double money,String date);
 
     void checkStatusWhileLogin(int uid);
+
+    void useBonus(int uid,double use,double bonusNow,double balanceNow);
+
+    ArrayList<RechargeRecord> getRechargeHistory(int uid);
+    ArrayList<BonusRecord> getBonusHistory(int uid);
 }

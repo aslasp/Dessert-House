@@ -42,5 +42,9 @@
         <action name="recharge" class="action.user.VIPAction" method="recharge">
             <result name="success" type="redirect">/user/vip</result>
         </action>
+        <action name="useBonus" class="action.user.VIPAction" method="useBonus">
+            <result name="success" type="redirect">/user/vip</result>
+            <result name="error">/user-useBonusError.html</result>
+        </action>
     </package>
 </struts>
