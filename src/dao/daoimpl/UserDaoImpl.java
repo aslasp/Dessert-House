@@ -365,6 +365,35 @@ public class UserDaoImpl implements UserDao {
         return list;
     }
 
+    @Override
+    public double getDiscountInfo(int uid) {
+        Connection con=daoHelper.getConnection();
+        PreparedStatement stmt=null;
+        ResultSet rs=null;
+        int level=0;
+        try {
+            stmt=con.prepareStatement("select ulevel from user where uid=?;");
+            stmt.setInt(1,uid);
+            rs=stmt.executeQuery();
+            while (rs.next()){
+                level=rs.getInt(1);
+            }
+        }catch (SQLException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }finally {
+            daoHelper.closeResult(rs);
+            daoHelper.closePreparedStatement(stmt);
+            daoHelper.closeConnection(con);
+        }
+        switch (level){
+            case 1:return 0.9;
+            case 2:return 0.8;
+            case 3:return 0.75;
+            default:return 1.0;
+        }
+    }
+
     private void useBonus_user(int uid,double bonusNow,double balanceNow){
         Connection con=daoHelper.getConnection();
         PreparedStatement stmt=null;

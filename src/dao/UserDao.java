@@ -89,4 +89,6 @@ public interface UserDao {
 
     ArrayList<RechargeRecord> getRechargeHistory(int uid);
     ArrayList<BonusRecord> getBonusHistory(int uid);
+
+    double getDiscountInfo(int uid);
 }

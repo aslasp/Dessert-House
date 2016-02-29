@@ -1,4 +1,7 @@
-<%--
+<%@ page import="java.util.ArrayList" %>
+<%@ page import="beans.Store" %>
+<%@ page import="dao.StoreDao" %>
+<%@ page import="factory.DaoFactory" %><%--
   Created by IntelliJ IDEA.
   User: wn13
   Date: 2016/2/14
@@ -19,6 +22,8 @@
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/jquery.cookie.js"></script>
     <script src="../js/navbar.js"></script>
+    <script src="../js/user-main.js"></script>
+
 
     <!--[if lt IE 9]>
     <script src="../js/html5shiv.min.js"></script>
@@ -58,5 +63,30 @@
         </div><!--/.nav-collapse -->
     </div>
 </nav>
+<style>
+    .container-fluid{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .discount{
+        color:orangered;
+        font-size: large;
+    }
+</style>
+<%
+    StoreDao storeDao= DaoFactory.getStoreDao();
+    ArrayList<Store> slist=storeDao.getAllStores();
+%>
+<div class="container-fluid row">
+    <div class="col-xs-12 col-md-12"><h2>在线预订</h2><br></div>
+    <div class="list-group col-xs-12 col-md-3">
+        <%
+            for(int i=0;i<slist.size();i++){
+                Store tmpStore=slist.get(i);
+        %>
+        <a href="#!" id="slist_item<%=i%>" class="list-group-item"><%=tmpStore.getSname()%></a>
+        <%}%>
+    </div>
+</div>
 </body>
 </html>

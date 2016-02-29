@@ -27,4 +27,8 @@ public class DaoFactory {
     public static PlanDao getPlanDao(){
         return PlanDaoImpl.getInstance();
     }
+
+    public static SaleDao getSaleDao(){
+        return SaleDaoImpl.getInstance();
+    }
 }

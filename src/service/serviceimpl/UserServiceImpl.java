@@ -125,6 +125,11 @@ public class UserServiceImpl implements UserService {
         return userDao.getBonusHistory(uid);
     }
 
+    @Override
+    public double getDiscountInfo(int uid) {
+        return userDao.getDiscountInfo(uid);
+    }
+
     private int generateUid() {
         return 1000000 + userDao.countUserNum();
     }

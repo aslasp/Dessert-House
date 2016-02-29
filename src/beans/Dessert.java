@@ -6,7 +6,6 @@ package beans;
 public class Dessert {
     private String dname,dintro;
     private int hasImg;
-
     public String getDname() {
         return dname;
     }
