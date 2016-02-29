@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef356710-6559-46e0-9184-0461a321be88" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/beans/BonusRecord.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/beans/RechargeRecord.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/user-useBonusError.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/鏁版嵁搴撳畾涔�.docx" afterPath="$PROJECT_DIR$/docs/鏁版嵁搴撳畾涔�.docx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/action/user/LoginAction.class" afterPath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/action/user/LoginAction.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/action/user/VIPAction.class" afterPath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/action/user/VIPAction.class" />
@@ -22,13 +19,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/struts-user.xml" afterPath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/struts-user.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/user-vip.jsp" afterPath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/user-vip.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DessertHouse/struts-user.xml" afterPath="$PROJECT_DIR$/out/production/DessertHouse/struts-user.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/action/user/VIPAction.java" afterPath="$PROJECT_DIR$/src/action/user/VIPAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dao/UserDao.java" afterPath="$PROJECT_DIR$/src/dao/UserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dao/daoimpl/UserDaoImpl.java" afterPath="$PROJECT_DIR$/src/dao/daoimpl/UserDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/service/UserService.java" afterPath="$PROJECT_DIR$/src/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/service/serviceimpl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/service/serviceimpl/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/struts-user.xml" afterPath="$PROJECT_DIR$/src/struts-user.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/user-vip.jsp" afterPath="$PROJECT_DIR$/web/user-vip.jsp" />
     </list>
     <ignored path="DessertHouse.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -922,7 +912,7 @@
       <workItem from="1456106849696" duration="25944000" />
       <workItem from="1456274917505" duration="21115000" />
       <workItem from="1456588246627" duration="20000" />
-      <workItem from="1456729235105" duration="13206000" />
+      <workItem from="1456729235105" duration="13250000" />
     </task>
     <task id="LOCAL-00001" summary="增加用户登录时进行状态检查/变更功能">
       <created>1456733266253</created>
@@ -930,11 +920,17 @@
       <option name="project" value="LOCAL" />
       <updated>1456733266253</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="增加积分兑换、查看充值历史、查看积分兑换历史功能">
+      <created>1456746023147</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1456746023147</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175002000" />
+    <option name="totallyTimeSpent" value="175046000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
