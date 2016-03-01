@@ -52,6 +52,9 @@
         <action name="orderNow" class="action.user.MainAction" method="orderNow">
             <result name="success">/user-buysuccess.html</result>
         </action>
+        <action name="cancelOrder" class="action.user.OrderAction" method="cancelOrder">
+            <result name="success" type="redirect">/user/order</result>
+        </action>
     </package>
 
     <package name="userAjax" namespace="/user" extends="json-default">

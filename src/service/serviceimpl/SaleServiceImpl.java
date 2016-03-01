@@ -30,4 +30,14 @@ public class SaleServiceImpl implements SaleService {
     public ArrayList<Order> getAllOrders(int uid) {
         return saleDao.getAllOrders(uid);
     }
+
+    @Override
+    public void updateOrderType(Order order) {
+        saleDao.updateOrderType(order);
+    }
+
+    @Override
+    public void cancelOrder(Order order, double ubalance) {
+        saleDao.cancelOrder(order,(ubalance+order.getOtotal()));
+    }
 }

@@ -110,6 +110,30 @@ public class SaleDaoImpl implements SaleDao {
         return list;
     }
 
+    @Override
+    public void updateOrderType(Order order) {
+        Connection con = daoHelper.getConnection();
+        PreparedStatement stmt = null;
+        try {
+            stmt = con.prepareStatement("update orders set otype=? where oid=?;");
+            stmt.setInt(1, order.getOtype());
+            stmt.setInt(2, order.getOid());
+            stmt.executeUpdate();
+        } catch (SQLException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        } finally {
+            daoHelper.closePreparedStatement(stmt);
+            daoHelper.closeConnection(con);
+        }
+    }
+
+    @Override
+    public void cancelOrder(Order order,double nb) {
+        updateUserBalance(order.getUid(),nb);
+        updateOrderType(order);
+    }
+
     private ArrayList<Plan> getCurrentPlansOfStore(String sname){
         SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         Calendar cal=Calendar.getInstance();
@@ -268,4 +292,5 @@ public class SaleDaoImpl implements SaleDao {
         }
         return pid;
     }
+
 }

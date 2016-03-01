@@ -12,4 +12,6 @@ public interface SaleDao {
     ArrayList<Commodity> getCommoditiesInStore(String sname);
     void createNewOrder(Order order,double nb);
     ArrayList<Order> getAllOrders(int uid);
+    void cancelOrder(Order order,double nb);
+    void updateOrderType(Order order);
 }

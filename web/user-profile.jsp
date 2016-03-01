@@ -75,8 +75,8 @@
 </style>
 <%
     CookieService service=new CookieServiceImpl();
-    UserService userService=new UserServiceImpl();
     String uid=service.getCookie("uid");
+    UserService userService=new UserServiceImpl();
     User tmpUser=userService.findUser("uid",uid).get(0);
 %>
 <div class="container-fluid">

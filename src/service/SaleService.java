@@ -12,4 +12,6 @@ public interface SaleService {
     ArrayList<Commodity> getCommoditiesInStore(String sname);
     void createNewOrder(Order order,double ubalance);
     ArrayList<Order> getAllOrders(int uid);
+    void updateOrderType(Order order);
+    void cancelOrder(Order order,double ubalance);
 }
