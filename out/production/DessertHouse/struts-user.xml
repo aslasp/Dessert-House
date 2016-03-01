@@ -46,5 +46,17 @@
             <result name="success" type="redirect">/user/vip</result>
             <result name="error">/user-useBonusError.html</result>
         </action>
+        <action name="buyNow" class="action.user.MainAction" method="buyNow">
+            <result name="success">/user-buysuccess.html</result>
+        </action>
+        <action name="orderNow" class="action.user.MainAction" method="orderNow">
+            <result name="success">/user-buysuccess.html</result>
+        </action>
+    </package>
+
+    <package name="userAjax" namespace="/user" extends="json-default">
+        <action name="ajaxGetCommodity" class="action.user.AjaxGetCommodityAction" method="ajaxGetCommodity">
+            <result name="success" type="json"></result>
+        </action>
     </package>
 </struts>

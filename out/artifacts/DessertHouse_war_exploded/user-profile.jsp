@@ -80,7 +80,7 @@
     User tmpUser=userService.findUser("uid",uid).get(0);
 %>
 <div class="container-fluid">
-    <h2 style="margin: auto" class="col-xs-12">修改个人资料</h2><br>
+    <div style="margin: auto"><h2 class="col-xs-12">修改个人资料</h2><br></div>
     <form style="margin: auto" action="/DessertHouse/user/changeProfile" method="post">
         <input readonly type="text" name="user.uid" class="form-control" value="<%=uid%>"><br>
         <input type="text" name="user.uname" class="form-control" placeholder="请输入姓名" value="<%=tmpUser.getUname()%>"><br>

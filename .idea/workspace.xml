@@ -1,35 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef356710-6559-46e0-9184-0461a321be88" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/beans/Commodity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/beans/Order.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dao/SaleDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dao/daoimpl/SaleDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/service/SaleService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/service/serviceimpl/SaleServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/user-main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/beans/Dessert.class" afterPath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/beans/Dessert.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/dao/UserDao.class" afterPath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/dao/UserDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/dao/daoimpl/UserDaoImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/dao/daoimpl/UserDaoImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/factory/DaoFactory.class" afterPath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/factory/DaoFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/service/UserService.class" afterPath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/service/UserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/service/serviceimpl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/service/serviceimpl/UserServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DessertHouse/beans/Dessert.class" afterPath="$PROJECT_DIR$/out/production/DessertHouse/beans/Dessert.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DessertHouse/dao/UserDao.class" afterPath="$PROJECT_DIR$/out/production/DessertHouse/dao/UserDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DessertHouse/dao/daoimpl/UserDaoImpl.class" afterPath="$PROJECT_DIR$/out/production/DessertHouse/dao/daoimpl/UserDaoImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DessertHouse/factory/DaoFactory.class" afterPath="$PROJECT_DIR$/out/production/DessertHouse/factory/DaoFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DessertHouse/service/UserService.class" afterPath="$PROJECT_DIR$/out/production/DessertHouse/service/UserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DessertHouse/service/serviceimpl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/out/production/DessertHouse/service/serviceimpl/UserServiceImpl.class" />
+    <list default="true" id="ef356710-6559-46e0-9184-0461a321be88" name="Default" comment="正在写在线预订功能，目前在写界面：选择一个商店获得商品列表，需要学习struts2 json">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/struts2-json-plugin-2.3.24.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/action/user/AjaxGetCommodityAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/user-buysuccess.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/数据库定义.docx" afterPath="$PROJECT_DIR$/docs/数据库定义.docx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/action/user/MainAction.class" afterPath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/action/user/MainAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DessertHouse/action/user/MainAction.class" afterPath="$PROJECT_DIR$/out/production/DessertHouse/action/user/MainAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DessertHouse.iml" afterPath="$PROJECT_DIR$/DessertHouse.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/struts-user.xml" afterPath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/struts-user.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/css/navbar.css" afterPath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/css/navbar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/head-dessert.jsp" afterPath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/head-dessert.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/index.html" afterPath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/user-main.jsp" afterPath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/user-main.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/beans/Dessert.java" afterPath="$PROJECT_DIR$/src/beans/Dessert.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dao/UserDao.java" afterPath="$PROJECT_DIR$/src/dao/UserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dao/daoimpl/UserDaoImpl.java" afterPath="$PROJECT_DIR$/src/dao/daoimpl/UserDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/factory/DaoFactory.java" afterPath="$PROJECT_DIR$/src/factory/DaoFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/service/UserService.java" afterPath="$PROJECT_DIR$/src/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/service/serviceimpl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/service/serviceimpl/UserServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DessertHouse/struts-user.xml" afterPath="$PROJECT_DIR$/out/production/DessertHouse/struts-user.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/action/user/MainAction.java" afterPath="$PROJECT_DIR$/src/action/user/MainAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dao/SaleDao.java" afterPath="$PROJECT_DIR$/src/dao/SaleDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dao/daoimpl/SaleDaoImpl.java" afterPath="$PROJECT_DIR$/src/dao/daoimpl/SaleDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/service/SaleService.java" afterPath="$PROJECT_DIR$/src/service/SaleService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/service/serviceimpl/SaleServiceImpl.java" afterPath="$PROJECT_DIR$/src/service/serviceimpl/SaleServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/struts-user.xml" afterPath="$PROJECT_DIR$/src/struts-user.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/navbar.css" afterPath="$PROJECT_DIR$/web/css/navbar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/head-dessert.jsp" afterPath="$PROJECT_DIR$/web/head-dessert.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/user-main.js" afterPath="$PROJECT_DIR$/web/js/user-main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/user-main.jsp" afterPath="$PROJECT_DIR$/web/user-main.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/user-order.jsp" afterPath="$PROJECT_DIR$/web/user-order.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/user-password.jsp" afterPath="$PROJECT_DIR$/web/user-password.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/user-profile.jsp" afterPath="$PROJECT_DIR$/web/user-profile.jsp" />
     </list>
     <ignored path="DessertHouse.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,22 +53,12 @@
     <favorites_list name="DessertHouse" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="user-main.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/user-main.jsp">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="user-order.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/user-order.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.393939">
-              <caret line="86" column="66" selection-start-line="86" selection-start-column="49" selection-end-line="86" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user-main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/js/user-main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.625">
-              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.7882353">
+              <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -80,10 +72,10 @@
         <option value="struts" />
         <option value="CSS File" />
         <option value="Jsp File" />
-        <option value="HTML File" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JavaScript File" />
+        <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -98,11 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/admin-store.jsp" />
-        <option value="$PROJECT_DIR$/web/head-history.jsp" />
-        <option value="$PROJECT_DIR$/web/index.html" />
-        <option value="$PROJECT_DIR$/src/struts.xml" />
-        <option value="$PROJECT_DIR$/src/action/employee/manager/ReportAction.java" />
         <option value="$PROJECT_DIR$/web/js/navbar-manager.js" />
         <option value="$PROJECT_DIR$/web/manager-report.jsp" />
         <option value="$PROJECT_DIR$/src/service/ManagerService.java" />
@@ -112,24 +99,19 @@
         <option value="$PROJECT_DIR$/src/struts-employee.xml" />
         <option value="$PROJECT_DIR$/web/manager-approval.jsp" />
         <option value="$PROJECT_DIR$/src/service/serviceimpl/HeadServiceImpl.java" />
-        <option value="$PROJECT_DIR$/web/head-dessert.jsp" />
         <option value="$PROJECT_DIR$/web/head-plan.jsp" />
         <option value="$PROJECT_DIR$/src/dao/daoimpl/PlanDaoImpl.java" />
         <option value="$PROJECT_DIR$/web/user-creditcard.jsp" />
         <option value="$PROJECT_DIR$/src/action/user/OrderAction.java" />
         <option value="$PROJECT_DIR$/web/user-changePswdSuccess.html" />
         <option value="$PROJECT_DIR$/web/user-changePswdError.html" />
-        <option value="$PROJECT_DIR$/web/user-order.jsp" />
-        <option value="$PROJECT_DIR$/web/user-password.jsp" />
         <option value="$PROJECT_DIR$/web/user-changeProfileSuccess.html" />
-        <option value="$PROJECT_DIR$/web/user-profile.jsp" />
         <option value="$PROJECT_DIR$/web/register-success.jsp" />
         <option value="$PROJECT_DIR$/src/service/CookieService.java" />
         <option value="$PROJECT_DIR$/src/service/serviceimpl/CookieServiceImpl.java" />
         <option value="$PROJECT_DIR$/web/js/navbar-admin.js" />
         <option value="$PROJECT_DIR$/src/action/user/PersonalAction.java" />
         <option value="$PROJECT_DIR$/src/action/user/LoginAction.java" />
-        <option value="$PROJECT_DIR$/src/struts-user.xml" />
         <option value="$PROJECT_DIR$/web/user-useBonusError.html" />
         <option value="$PROJECT_DIR$/src/action/user/VIPAction.java" />
         <option value="$PROJECT_DIR$/src/beans/RechargeRecord.java" />
@@ -137,18 +119,28 @@
         <option value="$PROJECT_DIR$/web/user-vip.jsp" />
         <option value="$PROJECT_DIR$/src/beans/Dessert.java" />
         <option value="$PROJECT_DIR$/src/beans/Order.java" />
-        <option value="$PROJECT_DIR$/src/dao/SaleDao.java" />
         <option value="$PROJECT_DIR$/src/factory/DaoFactory.java" />
         <option value="$PROJECT_DIR$/src/beans/Commodity.java" />
-        <option value="$PROJECT_DIR$/src/dao/daoimpl/SaleDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/service/SaleService.java" />
         <option value="$PROJECT_DIR$/src/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/dao/daoimpl/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/service/serviceimpl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/service/serviceimpl/SaleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/web/user-main.jsp" />
+        <option value="$PROJECT_DIR$/src/action/user/AjaxGetCommodityAction.java" />
+        <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/src/dao/SaleDao.java" />
+        <option value="$PROJECT_DIR$/src/service/SaleService.java" />
+        <option value="$PROJECT_DIR$/web/css/navbar.css" />
+        <option value="$PROJECT_DIR$/web/user-buysuccess.html" />
+        <option value="$PROJECT_DIR$/src/struts-user.xml" />
+        <option value="$PROJECT_DIR$/src/action/user/MainAction.java" />
         <option value="$PROJECT_DIR$/web/js/user-main.js" />
+        <option value="$PROJECT_DIR$/src/service/serviceimpl/SaleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/dao/daoimpl/SaleDaoImpl.java" />
+        <option value="$PROJECT_DIR$/web/user-profile.jsp" />
+        <option value="$PROJECT_DIR$/web/user-password.jsp" />
+        <option value="$PROJECT_DIR$/web/user-main.jsp" />
+        <option value="$PROJECT_DIR$/web/user-order.jsp" />
+        <option value="$PROJECT_DIR$/web/head-dessert.jsp" />
       </list>
     </option>
   </component>
@@ -202,6 +194,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -437,21 +431,67 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="action" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="employee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DessertHouse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DessertHouse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="action" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="employee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="head" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DessertHouse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DessertHouse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="docs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="D:\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="D:/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/struts2-json-plugin-2.3.24.1.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -463,11 +503,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\DessertHouse\web\WEB-INF\lib" />
       <recent name="E:\workspace\DessertHouse\web\js" />
       <recent name="E:\workspace\DessertHouse\src" />
       <recent name="E:\workspace\DessertHouse" />
       <recent name="E:\workspace\DessertHouse\web" />
-      <recent name="E:\workspace\DessertHouse\web\META-INF" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.0.30">
@@ -980,7 +1020,8 @@
       <workItem from="1456106849696" duration="25944000" />
       <workItem from="1456274917505" duration="21115000" />
       <workItem from="1456588246627" duration="20000" />
-      <workItem from="1456729235105" duration="20512000" />
+      <workItem from="1456729235105" duration="23137000" />
+      <workItem from="1456792309314" duration="31400000" />
     </task>
     <task id="LOCAL-00001" summary="增加用户登录时进行状态检查/变更功能">
       <created>1456733266253</created>
@@ -994,11 +1035,17 @@
       <option name="project" value="LOCAL" />
       <updated>1456746023147</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="正在写在线预订功能，目前在写界面：选择一个商店获得商品列表，需要学习struts2 json">
+      <created>1456753414816</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1456753414816</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182308000" />
+    <option name="totallyTimeSpent" value="216333000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1021,13 +1068,12 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3655914" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3824885" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26613545" sideWeight="0.825" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21593626" sideWeight="0.825" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17247707" sideWeight="0.175" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -1037,7 +1083,34 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33126935" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37327188" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21593626" sideWeight="0.825" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17247707" sideWeight="0.175" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1055,11 +1128,13 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="增加用户登录时进行状态检查/变更功能" />
     <MESSAGE value="增加积分兑换、查看充值历史、查看积分兑换历史功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加积分兑换、查看充值历史、查看积分兑换历史功能" />
+    <MESSAGE value="正在写在线预订功能，目前在写界面：选择一个商店获得商品列表，需要学习struts2 json" />
+    <option name="LAST_COMMIT_MESSAGE" value="正在写在线预订功能，目前在写界面：选择一个商店获得商品列表，需要学习struts2 json" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1068,125 +1143,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/head-plan.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7027027">
-          <caret line="191" column="123" selection-start-line="191" selection-start-column="123" selection-end-line="191" selection-end-column="123" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/action/IndexAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35220125">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/manager-report.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8018018">
-          <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/action/user/OrderAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5534591">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/AdminService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26966292">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/login-error.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4881356">
-          <caret line="12" column="13" selection-start-line="6" selection-start-column="4" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/user-changePswdSuccess.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.21364985">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/user-changeProfileSuccess.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.002967359">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/user-profile.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.43617022">
-          <caret line="81" column="29" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/user-password.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4175824">
-          <caret line="83" column="6" selection-start-line="63" selection-start-column="0" selection-end-line="83" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/register-success.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44444445">
-          <caret line="95" column="58" selection-start-line="95" selection-start-column="58" selection-end-line="95" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/serviceimpl/CookieServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3183024">
-          <caret line="62" column="7" selection-start-line="49" selection-start-column="5" selection-end-line="62" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/CookieService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55437666">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/admin-employee.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5510204">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/navbar-admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14285715">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin-store.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5223464">
-          <caret line="140" column="51" selection-start-line="140" selection-start-column="51" selection-end-line="140" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66480446">
-          <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="143" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/action/user/PersonalAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37595907">
@@ -1208,6 +1164,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44859812">
           <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1216,23 +1173,6 @@
         <state vertical-scroll-proportion="1.2005209">
           <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/daoimpl/StoreDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.625">
-          <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-          <folding>
-            <marker date="1455803887785" expanded="true" signature="836:880" placeholder="insert into store... " />
-            <marker date="1455803887785" expanded="true" signature="1536:1555" placeholder="select * fro... store" />
-            <marker date="1455803887785" expanded="true" signature="2463:2501" placeholder="update store... " />
-            <marker date="1455803887785" expanded="true" signature="3070:3101" placeholder="delete from " />
-            <marker date="1455803887785" expanded="true" signature="3854:3897" placeholder="delete from " />
-            <marker date="1455803887785" expanded="true" signature="4444:4562" placeholder="delete from " />
-            <marker date="1455803887785" expanded="true" signature="4485:4561" placeholder="select * fro... pid" />
-            <marker date="1455803887785" expanded="true" signature="4499:4553" placeholder="select plan.... plan" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1248,17 +1188,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4074703">
           <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/struts-user.xml">
-      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.174603">
-          <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
           <folding />
         </state>
       </provider>
@@ -1307,41 +1236,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/user-vip.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="10.333333">
-          <caret line="203" column="23" selection-start-line="203" selection-start-column="23" selection-end-line="203" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/user-order.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.024">
-          <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/beans/Dessert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41584158">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/beans/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2382134">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-          <folding>
-            <element signature="e#227#228#0" expanded="false" />
-            <element signature="e#253#254#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/factory/DaoFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7277148">
@@ -1350,87 +1244,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/daoimpl/PlanDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10534846">
-          <caret line="189" column="36" selection-start-line="189" selection-start-column="36" selection-end-line="189" selection-end-column="36" />
-          <folding>
-            <marker date="1456231999463" expanded="true" signature="1832:1889" placeholder="update plan " />
-            <marker date="1456231999463" expanded="true" signature="2870:2919" placeholder="select * fro... plan" />
-            <marker date="1456231999463" expanded="true" signature="4268:4318" placeholder="select * fro... plan" />
-            <marker date="1456231999463" expanded="true" signature="5723:5760" placeholder="update plan " />
-            <marker date="1456231999463" expanded="true" signature="6298:6379" placeholder="insert into plan... " />
-            <marker date="1456231999463" expanded="true" signature="7125:7169" placeholder="insert into account... " />
-            <marker date="1456231999463" expanded="true" signature="7702:7730" placeholder="delete from " />
-            <marker date="1456231999463" expanded="true" signature="8229:8260" placeholder="delete from " />
-            <marker date="1456231999463" expanded="true" signature="8870:8926" placeholder="select * fro... plan" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/DessertDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27228525">
           <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/beans/Commodity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31118315">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding>
-            <element signature="e#934#935#0" expanded="false" />
-            <element signature="e#963#964#0" expanded="false" />
-            <element signature="e#1004#1005#0" expanded="false" />
-            <element signature="e#1040#1041#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/daoimpl/DessertDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36953">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="45" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/daoimpl/SaleDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3858521">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding>
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-            <marker date="1456750454674" expanded="true" signature="2075:2167" placeholder="insert into dessert... " />
-            <marker date="1456750454674" expanded="true" signature="3110:3124" placeholder="select * fro... dessert" />
-            <marker date="1456750454674" expanded="true" signature="3110:3172" placeholder="select * fro... orders" />
-            <marker date="1456750454674" expanded="true" signature="4609:4668" placeholder="select * fro... plan" />
-            <marker date="1456750454674" expanded="true" signature="5942:5991" placeholder="select asold... account" />
-            <marker date="1456750454674" expanded="true" signature="6744:6779" placeholder="select * fro... dessert" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/SaleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5016077">
-          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/SaleDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42443728">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="13" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1447,22 +1265,6 @@
         <state vertical-scroll-proportion="-0.3118971">
           <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/daoimpl/EmployeeDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.96463025">
-          <caret line="154" column="21" selection-start-line="135" selection-start-column="8" selection-end-line="154" selection-end-column="21" />
-          <folding>
-            <marker date="1455702262442" expanded="true" signature="799:862" placeholder="insert into employee... " />
-            <marker date="1455702262442" expanded="true" signature="1549:1583" placeholder="delete from " />
-            <marker date="1455702262442" expanded="true" signature="2172:2191" placeholder="update emplo... " />
-            <marker date="1455702262442" expanded="true" signature="3027:3084" placeholder="update emplo... " />
-            <marker date="1455702262442" expanded="true" signature="3828:3883" placeholder="select count... employee" />
-            <marker date="1455702262442" expanded="true" signature="4635:4675" placeholder="select etype... employee" />
-            <marker date="1455702262442" expanded="true" signature="5424:5467" placeholder="select * fro... employee" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1496,10 +1298,10 @@
         <state vertical-scroll-proportion="0.53697747">
           <caret line="125" column="5" selection-start-line="125" selection-start-column="5" selection-end-line="125" selection-end-column="5" />
           <folding>
-            <element signature="e#3514#3515#0" expanded="true" />
-            <element signature="e#3565#3566#0" expanded="true" />
-            <element signature="e#3625#3626#0" expanded="true" />
-            <element signature="e#3676#3677#0" expanded="true" />
+            <element signature="e#3514#3515#0" expanded="false" />
+            <element signature="e#3565#3566#0" expanded="false" />
+            <element signature="e#3625#3626#0" expanded="false" />
+            <element signature="e#3676#3677#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1512,50 +1314,381 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/serviceimpl/SaleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6141479">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#457#458#0" expanded="false" />
-            <element signature="e#516#517#0" expanded="false" />
-            <element signature="e#577#578#0" expanded="false" />
-            <element signature="e#622#623#0" expanded="false" />
-            <element signature="e#689#690#0" expanded="false" />
-            <element signature="e#737#738#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/js/navbar-head.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1875">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5549133">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/head-dessert.jsp">
+    <entry file="file://$PROJECT_DIR$/src/beans/Store.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4074703">
-          <caret line="80" column="4" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/action/user/AjaxGetCommodityAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+          <folding>
+            <element signature="e#687#688#0" expanded="false" />
+            <element signature="e#721#722#0" expanded="false" />
+            <element signature="e#789#790#0" expanded="false" />
+            <element signature="e#835#836#0" expanded="false" />
+            <element signature="e#896#897#0" expanded="false" />
+            <element signature="e#924#925#0" expanded="false" />
+            <element signature="e#966#967#0" expanded="false" />
+            <element signature="e#1000#1001#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/beans/Dessert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/action/employee/head/DessertAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27009645">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/SaleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34726688">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/SaleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34726688">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/action/user/RegisterAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1511254">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user-vip.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44482175">
+          <caret line="88" column="53" selection-start-line="85" selection-start-column="4" selection-end-line="88" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin-store.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24108659">
+          <caret line="140" column="51" selection-start-line="140" selection-start-column="51" selection-end-line="140" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/beans/Commodity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/navbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/navbar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5739645">
+          <caret line="91" column="1" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/daoimpl/EmployeeDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.2291105">
+          <caret line="154" column="21" selection-start-line="135" selection-start-column="8" selection-end-line="154" selection-end-column="21" />
+          <folding>
+            <marker date="1455702262442" expanded="true" signature="799:862" placeholder="insert into employee... " />
+            <marker date="1455702262442" expanded="true" signature="1549:1583" placeholder="delete from " />
+            <marker date="1455702262442" expanded="true" signature="2172:2191" placeholder="update emplo... " />
+            <marker date="1455702262442" expanded="true" signature="3027:3084" placeholder="update emplo... " />
+            <marker date="1455702262442" expanded="true" signature="3828:3883" placeholder="select count... employee" />
+            <marker date="1455702262442" expanded="true" signature="4635:4675" placeholder="select etype... employee" />
+            <marker date="1455702262442" expanded="true" signature="5424:5467" placeholder="select * fro... employee" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/daoimpl/DessertDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61290324">
+          <caret line="122" column="159" selection-start-line="122" selection-start-column="82" selection-end-line="122" selection-end-column="159" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/PlanDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.0700809">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/daoimpl/StoreDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19407009">
+          <caret line="113" column="8" selection-start-line="113" selection-start-column="8" selection-end-line="117" selection-end-column="45" />
+          <folding>
+            <marker date="1455803887785" expanded="true" signature="836:880" placeholder="insert into store... " />
+            <marker date="1455803887785" expanded="true" signature="1536:1555" placeholder="select * fro... store" />
+            <marker date="1455803887785" expanded="true" signature="2463:2501" placeholder="update store... " />
+            <marker date="1455803887785" expanded="true" signature="3070:3101" placeholder="delete from " />
+            <marker date="1455803887785" expanded="true" signature="3854:3897" placeholder="delete from " />
+            <marker date="1455803887785" expanded="true" signature="4444:4562" placeholder="delete from " />
+            <marker date="1455803887785" expanded="true" signature="4485:4561" placeholder="select * fro... pid" />
+            <marker date="1455803887785" expanded="true" signature="4499:4553" placeholder="select plan.... plan" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user-buysuccess.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5454545">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user-changeProfileSuccess.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/daoimpl/PlanDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.474394">
+          <caret line="56" column="16" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="16" />
+          <folding>
+            <marker date="1456231999463" expanded="true" signature="1832:1889" placeholder="update plan " />
+            <marker date="1456231999463" expanded="true" signature="2870:2919" placeholder="select * fro... plan" />
+            <marker date="1456231999463" expanded="true" signature="4268:4318" placeholder="select * fro... plan" />
+            <marker date="1456231999463" expanded="true" signature="5723:5760" placeholder="update plan " />
+            <marker date="1456231999463" expanded="true" signature="6298:6379" placeholder="insert into plan... " />
+            <marker date="1456231999463" expanded="true" signature="7125:7169" placeholder="insert into account... " />
+            <marker date="1456231999463" expanded="true" signature="7702:7730" placeholder="delete from " />
+            <marker date="1456231999463" expanded="true" signature="8229:8260" placeholder="delete from " />
+            <marker date="1456231999463" expanded="true" signature="8870:8926" placeholder="select * fro... plan" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/serviceimpl/HeadServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3854446">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/action/employee/head/PlanAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.056603774">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/head-plan.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4260355">
+          <caret line="96" column="104" selection-start-line="96" selection-start-column="24" selection-end-line="96" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/daoimpl/SaleDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35309973">
+          <caret line="55" column="73" selection-start-line="55" selection-start-column="73" selection-end-line="55" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1456833722973" expanded="true" signature="2039:2131" placeholder="insert into dessert... " />
+            <marker date="1456833722973" expanded="true" signature="3086:3100" placeholder="select * fro... dessert" />
+            <marker date="1456833722973" expanded="true" signature="3086:3148" placeholder="select * fro... orders" />
+            <marker date="1456833722973" expanded="true" signature="4585:4644" placeholder="select * fro... plan" />
+            <marker date="1456833722973" expanded="true" signature="5918:5967" placeholder="select asold... account" />
+            <marker date="1456833722973" expanded="true" signature="6720:6755" placeholder="select * fro... dessert" />
+            <marker date="1456833722973" expanded="true" signature="7540:7578" placeholder="update desse... " />
+            <marker date="1456833722973" expanded="true" signature="8413:8453" placeholder="update user " />
+            <marker date="1456833722973" expanded="true" signature="8413:8461" placeholder="update accou... " />
+            <marker date="1456833722973" expanded="true" signature="8413:8463" placeholder="update accou... " />
+            <marker date="1456833722973" expanded="true" signature="9339:9373" placeholder="select * fro... dessert" />
+            <marker date="1456833722973" expanded="true" signature="9339:9384" placeholder="select pid f... plan" />
+            <marker date="1456833722973" expanded="true" signature="9339:9398" placeholder="select pid f... plan" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/action/user/MainAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.29380053">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/serviceimpl/SaleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7412399">
+          <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/beans/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.77628034">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#288#289#0" expanded="false" />
+            <element signature="e#318#319#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/struts-user.xml">
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5422078">
+          <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user-profile.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.85882354">
+          <caret line="82" column="67" selection-start-line="82" selection-start-column="67" selection-end-line="82" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user-password.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7264706">
+          <caret line="82" column="11" selection-start-line="82" selection-start-column="11" selection-end-line="82" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/user-main.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.393939">
-          <caret line="86" column="66" selection-start-line="86" selection-start-column="49" selection-end-line="86" selection-end-column="66" />
+        <state vertical-scroll-proportion="0.7882353">
+          <caret line="115" column="20" selection-start-line="115" selection-start-column="20" selection-end-line="115" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/user-main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.625">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.772118">
+          <caret line="20" column="43" selection-start-line="15" selection-start-column="19" selection-end-line="20" selection-end-column="43" />
+          <folding>
+            <marker date="1456832762608" expanded="true" signature="534:690" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="541:683" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="545:675" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="1591:3922" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="1655:3850" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="1655:3886" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="1655:3922" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="1708:3469" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="1708:3850" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="1760:1997" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="2132:2135" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="2132:3469" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="2135:2200" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="2135:2276" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="2135:2419" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="2135:2592" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="2135:2600" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="2135:2729" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="2135:2747" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="2135:2748" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="2135:2821" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="2135:2884" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="2135:2903" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="2135:2968" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="2135:3077" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="2135:3145" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="2135:3233" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="2135:3303" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="2135:3347" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="2135:3463" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="3521:3667" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="3521:3699" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="3521:3777" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="4060:6573" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="4128:6537" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="4185:6501" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="4241:4490" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="4577:6465" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="4635:6119" placeholder="..." />
+            <marker date="1456832762608" expanded="true" signature="6171:6428" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/head-dessert.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63529414">
+          <caret line="121" column="62" selection-start-line="121" selection-start-column="62" selection-end-line="121" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user-order.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7882353">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding />
         </state>
       </provider>

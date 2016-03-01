@@ -74,7 +74,7 @@
     String uid=service.getCookie("uid");
 %>
 <div class="container-fluid">
-    <h2 style="margin: auto" class="col-xs-12">修改密码</h2><br>
+    <div style="margin: auto"><h2 class="col-xs-12">修改密码</h2><br></div>
     <form style="margin: auto" action="/DessertHouse/user/changePassword" method="post">
         <input readonly type="text" name="uid" class="form-control" value="<%=uid%>"><br>
         <input type="password" name="opswd" class="form-control" placeholder="请输入原密码"><br>

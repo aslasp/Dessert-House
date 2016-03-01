@@ -119,7 +119,7 @@
         Dessert tmp=list.get(i);%>
         <tr>
             <td><img src="<%if(tmp.getHasImg()==1){
-            out.print("/DessertHouse/dhImg/"+tmp.getDname()+".jpeg");
+            out.print("/DessertHouse/dhImg/"+tmp.getDname()+".jpg");
             }else{
             out.print("/DessertHouse/dhImg/default.jpg");
             }

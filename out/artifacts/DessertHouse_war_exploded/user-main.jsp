@@ -1,7 +1,15 @@
-<%@ page import="java.util.ArrayList" %>
 <%@ page import="beans.Store" %>
+<%@ page import="beans.User" %>
 <%@ page import="dao.StoreDao" %>
-<%@ page import="factory.DaoFactory" %><%--
+<%@ page import="factory.DaoFactory" %>
+<%@ page import="service.CookieService" %>
+<%@ page import="java.util.ArrayList" %>
+<%@ page import="service.serviceimpl.CookieServiceImpl" %>
+<%@ page import="service.serviceimpl.UserServiceImpl" %>
+<%@ page import="service.UserService" %>
+<%@ page import="service.SaleService" %>
+<%@ page import="service.serviceimpl.SaleServiceImpl" %>
+<%--
   Created by IntelliJ IDEA.
   User: wn13
   Date: 2016/2/14
@@ -76,7 +84,17 @@
 <%
     StoreDao storeDao= DaoFactory.getStoreDao();
     ArrayList<Store> slist=storeDao.getAllStores();
+    CookieService cookieService=new CookieServiceImpl();
+    UserService userService=new UserServiceImpl();
+    String uid=cookieService.getCookie("uid");
+    User user=userService.findUser("uid",uid).get(0);
+    double discount=userService.getDiscountInfo(Integer.parseInt(uid));
 %>
+<script>
+    var uid=<%=user.getUid()%>;
+    var ubalance=<%=user.getUbalance()%>;
+    var discount=<%=discount%>
+</script>
 <div class="container-fluid row">
     <div class="col-xs-12 col-md-12"><h2>在线预订</h2><br></div>
     <div class="list-group col-xs-12 col-md-3">
@@ -87,6 +105,18 @@
         <a href="#!" id="slist_item<%=i%>" class="list-group-item"><%=tmpStore.getSname()%></a>
         <%}%>
     </div>
+    <div id="right_content" class="col-xs-12 col-md-9">
+        <table class='table table-hover'><thead><tr>
+            <th>图片</th>
+            <th>名称</th>
+            <th>简介</th>
+            <th>单价</th>
+            <th>操作</th></tr></thead><tbody>
+            </tbody>
+            </table>
+    </div>
 </div>
+
+
 </body>
 </html>

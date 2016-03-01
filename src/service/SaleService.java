@@ -10,6 +10,6 @@ import java.util.ArrayList;
  */
 public interface SaleService {
     ArrayList<Commodity> getCommoditiesInStore(String sname);
-    void createNewOrder(Order order);
+    void createNewOrder(Order order,double ubalance);
     ArrayList<Order> getAllOrders(int uid);
 }

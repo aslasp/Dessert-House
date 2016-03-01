@@ -10,6 +10,6 @@ import java.util.ArrayList;
  */
 public interface SaleDao {
     ArrayList<Commodity> getCommoditiesInStore(String sname);
-    void createNewOrder(Order order);
+    void createNewOrder(Order order,double nb);
     ArrayList<Order> getAllOrders(int uid);
 }

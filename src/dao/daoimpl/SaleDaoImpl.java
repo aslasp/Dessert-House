@@ -51,10 +51,9 @@ public class SaleDaoImpl implements SaleDao {
     }
 
     @Override
-    public void createNewOrder(Order order) {
-        SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        Calendar cal=Calendar.getInstance();
-        String date=sdf.format(cal.getTime());
+    public void createNewOrder(Order order,double nb) {
+        updateUserBalance(order.getUid(),nb);
+        updateAccount(order.getOnum(),order.getDname(),order.getSname());
         Connection con = daoHelper.getConnection();
         PreparedStatement stmt = null;
         try {
@@ -66,7 +65,7 @@ public class SaleDaoImpl implements SaleDao {
             stmt.setDouble(5,order.getOprice());
             stmt.setInt(6,order.getOnum());
             stmt.setDouble(7,order.getOtotal());
-            stmt.setString(8,date);
+            stmt.setString(8,order.getOtime());
             stmt.executeUpdate();
         } catch (SQLException e) {
             // TODO Auto-generated catch block
@@ -198,5 +197,75 @@ public class SaleDaoImpl implements SaleDao {
             daoHelper.closeConnection(con);
         }
         return dessert;
+    }
+
+    private void updateUserBalance(int uid,double ub){
+        Connection con = daoHelper.getConnection();
+        PreparedStatement stmt = null;
+        try {
+            stmt = con.prepareStatement("update user set ubalance=? where uid=?;");
+            stmt.setDouble(1, ub);
+            stmt.setInt(2, uid);
+            stmt.executeUpdate();
+        } catch (SQLException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        } finally {
+            daoHelper.closePreparedStatement(stmt);
+            daoHelper.closeConnection(con);
+        }
+    }
+
+    private void updateAccount(int num,String dname,String sname){
+        int pid=findPid(dname,sname);
+        int soldnum=getSoldNum(pid)+num;
+        SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd");
+        Calendar cal=Calendar.getInstance();
+        String date=sdf.format(cal.getTime());
+        date=date+" 00:00:00";
+        Connection con = daoHelper.getConnection();
+        PreparedStatement stmt = null;
+        try {
+            stmt = con.prepareStatement("update account set asold=? where adate=? and pid=?;");
+            stmt.setInt(1, soldnum);
+            stmt.setString(2,date);
+            stmt.setInt(3,pid);
+            stmt.executeUpdate();
+        } catch (SQLException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        } finally {
+            daoHelper.closePreparedStatement(stmt);
+            daoHelper.closeConnection(con);
+        }
+    }
+    private int findPid(String dname,String sname){
+        SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        Calendar cal=Calendar.getInstance();
+        cal.add(Calendar.DAY_OF_MONTH,-7);
+        Date startDate=cal.getTime();
+        String dateStr=sdf.format(startDate);
+        Connection con=daoHelper.getConnection();
+        PreparedStatement stmt=null;
+        ResultSet rs=null;
+        int pid=-1;
+        try {
+            stmt=con.prepareStatement("select pid from plan where dname=? and sname=? and ptime>=?;");
+            stmt.setString(1,dname);
+            stmt.setString(2,sname);
+            stmt.setString(3,dateStr);
+            rs=stmt.executeQuery();
+            while (rs.next()){
+                pid=rs.getInt(1);
+            }
+        }catch (SQLException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }finally {
+            daoHelper.closeResult(rs);
+            daoHelper.closePreparedStatement(stmt);
+            daoHelper.closeConnection(con);
+        }
+        return pid;
     }
 }

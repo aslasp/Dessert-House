@@ -19,8 +19,11 @@ public class SaleServiceImpl implements SaleService {
     }
 
     @Override
-    public void createNewOrder(Order order) {
-        saleDao.createNewOrder(order);
+    public void createNewOrder(Order order,double ubalance) {
+        System.out.println("service:"+order.getOtype());
+        System.out.println("service:"+order.getOtime());
+        System.out.println("service:"+order.getOtotal());
+        saleDao.createNewOrder(order,(ubalance-order.getOtotal()));
     }
 
     @Override
