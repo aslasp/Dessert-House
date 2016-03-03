@@ -184,6 +184,166 @@ public class SaleDaoImpl implements SaleDao {
     }
 
     @Override
+    public double countAllMoneyByDate(String date1, String date2) {
+        Connection con=daoHelper.getConnection();
+        PreparedStatement stmt=null;
+        ResultSet rs=null;
+        double money=0.0;
+        try {
+            stmt=con.prepareStatement("select ototal from orders where otime>=? and otime<? and otype<>3 and otype<>0;");
+            stmt.setString(1,date1);
+            stmt.setString(2,date2);
+            rs=stmt.executeQuery();
+            while (rs.next()){
+                money+=rs.getDouble(1);
+            }
+        }catch (SQLException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }finally {
+            daoHelper.closeResult(rs);
+            daoHelper.closePreparedStatement(stmt);
+            daoHelper.closeConnection(con);
+        }
+        return money;
+    }
+
+    @Override
+    public StoreStats reportStats(String sname, String date1, String date2) {
+        StoreStats stats=new StoreStats();
+        stats.setSname(sname);
+        stats.setMonth(Integer.parseInt(date1.split("-")[1]));
+        stats.setOrderMoney(reportOrderMoney(sname,date1,date2));
+        stats.setOrderNum(reportOrderNum(sname,date1,date2));
+        stats.setSellNum(reportSellNum(sname,date1,date2));
+        stats.setSellMoney(reportSellMoney(sname,date1,date2));
+        stats.setTop3(reportTop3(sname,date1,date2));
+        return stats;
+    }
+    private double reportOrderMoney(String sname, String date1, String date2){
+        Connection con=daoHelper.getConnection();
+        PreparedStatement stmt=null;
+        ResultSet rs=null;
+        double money=0.0;
+        try {
+            stmt=con.prepareStatement("select ototal from orders where otime>=? and otime<? and otype=2 and sname=?;");
+            stmt.setString(1,date1);
+            stmt.setString(2,date2);
+            stmt.setString(3,sname);
+            rs=stmt.executeQuery();
+            while (rs.next()){
+                money+=rs.getDouble(1);
+            }
+        }catch (SQLException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }finally {
+            daoHelper.closeResult(rs);
+            daoHelper.closePreparedStatement(stmt);
+            daoHelper.closeConnection(con);
+        }
+        return money;
+    }
+    private double reportSellMoney(String sname, String date1, String date2){
+        Connection con=daoHelper.getConnection();
+        PreparedStatement stmt=null;
+        ResultSet rs=null;
+        double money=0.0;
+        try {
+            stmt=con.prepareStatement("select ototal from orders where otime>=? and otime<? and otype=1 and sname=?;");
+            stmt.setString(1,date1);
+            stmt.setString(2,date2);
+            stmt.setString(3,sname);
+            rs=stmt.executeQuery();
+            while (rs.next()){
+                money+=rs.getDouble(1);
+            }
+        }catch (SQLException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }finally {
+            daoHelper.closeResult(rs);
+            daoHelper.closePreparedStatement(stmt);
+            daoHelper.closeConnection(con);
+        }
+        return money;
+    }
+    private int reportOrderNum(String sname, String date1, String date2){
+        int count=0;
+        Connection con=daoHelper.getConnection();
+        PreparedStatement stmt=null;
+        ResultSet rs=null;
+        try {
+            stmt=con.prepareStatement("select count(*) from orders where otime>=? and otime<? and otype=2 and sname=?;");
+            stmt.setString(1,date1);
+            stmt.setString(2,date2);
+            stmt.setString(3,sname);
+            rs=stmt.executeQuery();
+            while (rs.next()){
+                count=rs.getInt(1);
+            }
+        }catch (SQLException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }finally {
+            daoHelper.closeResult(rs);
+            daoHelper.closePreparedStatement(stmt);
+            daoHelper.closeConnection(con);
+        }
+        return count;
+    }
+    private int reportSellNum(String sname, String date1, String date2){
+        int count=0;
+        Connection con=daoHelper.getConnection();
+        PreparedStatement stmt=null;
+        ResultSet rs=null;
+        try {
+            stmt=con.prepareStatement("select count(*) from orders where otime>=? and otime<? and otype=1 and sname=?;");
+            stmt.setString(1,date1);
+            stmt.setString(2,date2);
+            stmt.setString(3,sname);
+            rs=stmt.executeQuery();
+            while (rs.next()){
+                count=rs.getInt(1);
+            }
+        }catch (SQLException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }finally {
+            daoHelper.closeResult(rs);
+            daoHelper.closePreparedStatement(stmt);
+            daoHelper.closeConnection(con);
+        }
+        return count;
+    }
+
+    private ArrayList<String> reportTop3(String sname,String date1,String date2){
+        ArrayList<String> result=new ArrayList<>();
+        Connection con=daoHelper.getConnection();
+        PreparedStatement stmt=null;
+        ResultSet rs=null;
+        try {
+            stmt=con.prepareStatement("select dname from(select dname,sum(onum) sss from orders where otime>=? and otime<? and otype<>3 and sname=? group by (dname) order by sss desc) tmp limit 0,3;");
+            stmt.setString(1,date1);
+            stmt.setString(2,date2);
+            stmt.setString(3,sname);
+            rs=stmt.executeQuery();
+            while (rs.next()){
+                result.add(rs.getString(1));
+            }
+        }catch (SQLException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }finally {
+            daoHelper.closeResult(rs);
+            daoHelper.closePreparedStatement(stmt);
+            daoHelper.closeConnection(con);
+        }
+        return result;
+    }
+
+
+    @Override
     public void cancelOrder(Order order,double nb) {
         updateUserBalance(order.getUid(),nb);
         updateOrderType(order);

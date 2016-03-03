@@ -3,6 +3,7 @@ package dao;
 import beans.Commodity;
 import beans.Order;
 import beans.Store;
+import beans.StoreStats;
 
 import java.util.ArrayList;
 
@@ -19,4 +20,7 @@ public interface SaleDao {
     Store findStoreOfBranch(String ename);
 
     ArrayList<Order> getAllOrdersWithoutUid();
+
+    double countAllMoneyByDate(String date1,String date2);
+    StoreStats reportStats(String sname,String date1,String date2);
 }

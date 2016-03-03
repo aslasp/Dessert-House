@@ -93,4 +93,8 @@ public interface UserDao {
     double getDiscountInfo(int uid);
 
     ArrayList<User> getAllValidUsers();
+
+    int countUserNumByAge(int low,int high);
+
+    int countUserNumBySex(int sex);
 }

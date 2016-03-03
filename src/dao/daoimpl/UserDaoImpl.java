@@ -431,6 +431,54 @@ public class UserDaoImpl implements UserDao {
         return list;
     }
 
+    @Override
+    public int countUserNumByAge(int low, int high) {
+        Connection con=daoHelper.getConnection();
+        PreparedStatement stmt=null;
+        ResultSet rs=null;
+        int count=0;
+        try {
+            stmt=con.prepareStatement("select count(*) from user where uage>=? and uage<?;");
+            stmt.setInt(1,low);
+            stmt.setInt(2,high);
+            rs=stmt.executeQuery();
+            while (rs.next()){
+                count=rs.getInt(1);
+            }
+        }catch (SQLException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }finally {
+            daoHelper.closeResult(rs);
+            daoHelper.closePreparedStatement(stmt);
+            daoHelper.closeConnection(con);
+        }
+        return count;
+    }
+
+    @Override
+    public int countUserNumBySex(int sex) {
+        Connection con=daoHelper.getConnection();
+        PreparedStatement stmt=null;
+        ResultSet rs=null;
+        int count=0;
+        try {
+            stmt=con.prepareStatement("select count(*) from user where usex=?;");
+            stmt.setInt(1,sex);
+            rs=stmt.executeQuery();
+            while (rs.next()){
+                count=rs.getInt(1);
+            }
+        }catch (SQLException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }finally {
+            daoHelper.closeResult(rs);
+            daoHelper.closePreparedStatement(stmt);
+            daoHelper.closeConnection(con);
+        }
+        return count;
+    }
     private void useBonus_user(int uid,double bonusNow,double balanceNow){
         Connection con=daoHelper.getConnection();
         PreparedStatement stmt=null;

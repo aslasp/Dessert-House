@@ -1,4 +1,5 @@
-<%--
+<%@ page import="service.ManagerService" %>
+<%@ page import="service.serviceimpl.ManagerServiceImpl" %><%--
   Created by IntelliJ IDEA.
   User: wn13
   Date: 2016/2/23
@@ -6,6 +7,10 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%
+    ManagerService managerService=new ManagerServiceImpl();
+    String statsJsonStr=managerService.getStatsJson();
+%>
 <html>
 <head>
 
@@ -15,10 +20,15 @@
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/navbar-manager.css" rel="stylesheet">
 
+    <script>
+        var stats=<%=statsJsonStr%>;
+    </script>
     <script src="../js/jquery-1.12.0.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/jquery.cookie.js"></script>
     <script src="../js/navbar-manager.js"></script>
+    <script src="../js/manager-report.js"></script>
+
 
     <!--[if lt IE 9]>
     <script src="../js/html5shiv.min.js"></script>
@@ -55,5 +65,6 @@
         </div><!--/.nav-collapse -->
     </div>
 </nav>
+
 </body>
 </html>
