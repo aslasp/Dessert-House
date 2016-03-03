@@ -151,6 +151,39 @@ public class SaleDaoImpl implements SaleDao {
     }
 
     @Override
+    public ArrayList<Order> getAllOrdersWithoutUid() {
+        Connection con = daoHelper.getConnection();
+        PreparedStatement stmt = null;
+        ResultSet rs = null;
+        ArrayList<Order> list = new ArrayList<>();
+        try {
+            stmt = con.prepareStatement("select * from orders order by otime desc;");
+            rs = stmt.executeQuery();
+            while (rs.next()) {
+                Order tmp = new Order();
+                tmp.setOid(rs.getInt(1));
+                tmp.setOtype(rs.getInt(2));
+                tmp.setSname(rs.getString(3));
+                tmp.setDname(rs.getString(4));
+                tmp.setUid(rs.getInt(5));
+                tmp.setOprice(rs.getDouble(6));
+                tmp.setOnum(rs.getInt(7));
+                tmp.setOtotal(rs.getDouble(8));
+                tmp.setOtime(rs.getString(9));
+                list.add(tmp);
+            }
+        } catch (SQLException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        } finally {
+            daoHelper.closeResult(rs);
+            daoHelper.closePreparedStatement(stmt);
+            daoHelper.closeConnection(con);
+        }
+        return list;
+    }
+
+    @Override
     public void cancelOrder(Order order,double nb) {
         updateUserBalance(order.getUid(),nb);
         updateOrderType(order);

@@ -17,4 +17,6 @@ public interface SaleDao {
     void updateOrderType(Order order);
 
     Store findStoreOfBranch(String ename);
+
+    ArrayList<Order> getAllOrdersWithoutUid();
 }

@@ -26,7 +26,6 @@
     UserDao userDao= DaoFactory.getUserDao();
     ArrayList<User> ulist=userDao.getAllValidUsers();
     String uJsonStr=JSONUtil.serialize(ulist);
-    System.out.println(uJsonStr);
 %>
 <html>
 <head>
