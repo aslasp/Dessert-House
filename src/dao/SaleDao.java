@@ -2,6 +2,7 @@ package dao;
 
 import beans.Commodity;
 import beans.Order;
+import beans.Store;
 
 import java.util.ArrayList;
 
@@ -14,4 +15,6 @@ public interface SaleDao {
     ArrayList<Order> getAllOrders(int uid);
     void cancelOrder(Order order,double nb);
     void updateOrderType(Order order);
+
+    Store findStoreOfBranch(String ename);
 }

@@ -5,6 +5,9 @@ import com.opensymphony.xwork2.ActionSupport;
 import service.SaleService;
 import service.serviceimpl.SaleServiceImpl;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
 /**
  * Created by wn13 on 2016/3/1.
  */
@@ -19,6 +22,12 @@ public class TradeAction extends ActionSupport {
     }
 
     public String sell(){
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        Calendar cal = Calendar.getInstance();
+        String date = sdf.format(cal.getTime());
+        order.setOtime(date);
+        order.setOtype(1);
+
         saleService.createNewOrder(order,ubalance);
         return SUCCESS;
     }

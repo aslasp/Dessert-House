@@ -91,4 +91,6 @@ public interface UserDao {
     ArrayList<BonusRecord> getBonusHistory(int uid);
 
     double getDiscountInfo(int uid);
+
+    ArrayList<User> getAllValidUsers();
 }

@@ -1,9 +1,6 @@
 package dao.daoimpl;
 
-import beans.Commodity;
-import beans.Dessert;
-import beans.Order;
-import beans.Plan;
+import beans.*;
 import dao.DaoHelper;
 import dao.SaleDao;
 
@@ -126,6 +123,31 @@ public class SaleDaoImpl implements SaleDao {
             daoHelper.closePreparedStatement(stmt);
             daoHelper.closeConnection(con);
         }
+    }
+
+    @Override
+    public Store findStoreOfBranch(String ename) {
+        Connection con=daoHelper.getConnection();
+        PreparedStatement stmt=null;
+        ResultSet rs=null;
+        Store store=new Store();
+        try {
+            stmt=con.prepareStatement("select store.sname,store.saddr from store,employee where employee.ename=? and employee.sname=store.sname;");
+            stmt.setString(1,ename);
+            rs=stmt.executeQuery();
+            while (rs.next()){
+                store.setSname(rs.getString(1));
+                store.setSaddr(rs.getString(2));
+            }
+        }catch (SQLException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }finally {
+            daoHelper.closeResult(rs);
+            daoHelper.closePreparedStatement(stmt);
+            daoHelper.closeConnection(con);
+        }
+        return store;
     }
 
     @Override

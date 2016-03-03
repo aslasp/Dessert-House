@@ -2,6 +2,7 @@ package service.serviceimpl;
 
 import beans.Commodity;
 import beans.Order;
+import beans.Store;
 import dao.SaleDao;
 import factory.DaoFactory;
 import service.SaleService;
@@ -20,9 +21,6 @@ public class SaleServiceImpl implements SaleService {
 
     @Override
     public void createNewOrder(Order order,double ubalance) {
-        System.out.println("service:"+order.getOtype());
-        System.out.println("service:"+order.getOtime());
-        System.out.println("service:"+order.getOtotal());
         saleDao.createNewOrder(order,(ubalance-order.getOtotal()));
     }
 
@@ -39,5 +37,10 @@ public class SaleServiceImpl implements SaleService {
     @Override
     public void cancelOrder(Order order, double ubalance) {
         saleDao.cancelOrder(order,(ubalance+order.getOtotal()));
+    }
+
+    @Override
+    public Store findStoreOfBranch(String ename) {
+        return saleDao.findStoreOfBranch(ename);
     }
 }

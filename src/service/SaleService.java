@@ -2,6 +2,7 @@ package service;
 
 import beans.Commodity;
 import beans.Order;
+import beans.Store;
 
 import java.util.ArrayList;
 
@@ -14,4 +15,6 @@ public interface SaleService {
     ArrayList<Order> getAllOrders(int uid);
     void updateOrderType(Order order);
     void cancelOrder(Order order,double ubalance);
+
+    Store findStoreOfBranch(String ename);
 }

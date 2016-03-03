@@ -76,10 +76,6 @@
         margin-left: 15%;
         margin-right: 15%;
     }
-    .discount{
-        color:orangered;
-        font-size: large;
-    }
 </style>
 <%
     StoreDao storeDao= DaoFactory.getStoreDao();
@@ -93,10 +89,15 @@
 <script>
     var uid=<%=user.getUid()%>;
     var ubalance=<%=user.getUbalance()%>;
-    var discount=<%=discount%>
+    var discount=<%=discount%>;
 </script>
 <div class="container-fluid row">
     <div class="col-xs-12 col-md-12"><h2>在线预订</h2><br></div>
+    <%if(user.getUstatus()!=1){%>
+    <div class="col-xs-12 col-md-12"><h3>您的会员卡处于不可用状态，充点钱就好啦</h3><br></div>
+    <img src="/DessertHouse/img/shake.gif">
+    <%}else{%>
+
     <div class="list-group col-xs-12 col-md-3">
         <%
             for(int i=0;i<slist.size();i++){
@@ -115,6 +116,7 @@
             </tbody>
             </table>
     </div>
+    <%}%>
 </div>
 
 

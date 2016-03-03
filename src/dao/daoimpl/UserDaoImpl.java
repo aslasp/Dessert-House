@@ -394,6 +394,43 @@ public class UserDaoImpl implements UserDao {
         }
     }
 
+    @Override
+    public ArrayList<User> getAllValidUsers() {
+        Connection con = daoHelper.getConnection();
+        PreparedStatement stmt = null;
+        ResultSet rs = null;
+        ArrayList<User> list = new ArrayList<>();
+        try {
+            stmt = con.prepareStatement("select * from user where ustatus=1;");
+            rs = stmt.executeQuery();
+            while (rs.next()) {
+                User tmp=new User();
+                tmp.setUid(rs.getInt(1));
+                tmp.setUname(rs.getString(2));
+                tmp.setUpswd(rs.getString(3));
+                tmp.setUage(rs.getInt(4));
+                tmp.setUsex(rs.getInt(5));
+                tmp.setUaddr(rs.getString(6));
+                tmp.setUcard(rs.getString(7));
+                tmp.setUbalance(rs.getDouble(8));
+                tmp.setUtotal_recharge(rs.getDouble(9));
+                tmp.setUlevel(rs.getInt(10));
+                tmp.setUbonus(rs.getDouble(11));
+                tmp.setUstatus(rs.getInt(12));
+                tmp.setUactivate_time(rs.getString(13));
+                list.add(tmp);
+            }
+        } catch (SQLException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        } finally {
+            daoHelper.closeResult(rs);
+            daoHelper.closePreparedStatement(stmt);
+            daoHelper.closeConnection(con);
+        }
+        return list;
+    }
+
     private void useBonus_user(int uid,double bonusNow,double balanceNow){
         Connection con=daoHelper.getConnection();
         PreparedStatement stmt=null;
