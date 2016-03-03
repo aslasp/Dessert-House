@@ -21,4 +21,13 @@ public class ManagerServiceImpl implements ManagerService {
     public void setPlanStatus(int pid, int pstatus) {
         planDao.setPlanStatus(pid,pstatus);
     }
+
+    @Override
+    public String getStatsJson() {
+
+
+
+
+        return null;
+    }
 }
