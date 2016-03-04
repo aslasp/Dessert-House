@@ -2,27 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef356710-6559-46e0-9184-0461a321be88" name="Default" comment="正在写在线预订功能，目前在写界面：选择一个商店获得商品列表，需要学习struts2 json">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/beans/StoreStats.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/manager-report.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/dao/SaleDao.class" afterPath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/dao/SaleDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/dao/UserDao.class" afterPath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/dao/UserDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/dao/daoimpl/SaleDaoImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/dao/daoimpl/SaleDaoImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/dao/daoimpl/UserDaoImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/dao/daoimpl/UserDaoImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/Chart.min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/js/china.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/js/echarts.common.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/china.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/echarts.common.min.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/service/ManagerService.class" afterPath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/service/ManagerService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/service/serviceimpl/ManagerServiceImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/service/serviceimpl/ManagerServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DessertHouse/dao/SaleDao.class" afterPath="$PROJECT_DIR$/out/production/DessertHouse/dao/SaleDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DessertHouse/dao/UserDao.class" afterPath="$PROJECT_DIR$/out/production/DessertHouse/dao/UserDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DessertHouse/dao/daoimpl/SaleDaoImpl.class" afterPath="$PROJECT_DIR$/out/production/DessertHouse/dao/daoimpl/SaleDaoImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DessertHouse/dao/daoimpl/UserDaoImpl.class" afterPath="$PROJECT_DIR$/out/production/DessertHouse/dao/daoimpl/UserDaoImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DessertHouse/service/ManagerService.class" afterPath="$PROJECT_DIR$/out/production/DessertHouse/service/ManagerService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DessertHouse/service/serviceimpl/ManagerServiceImpl.class" afterPath="$PROJECT_DIR$/out/production/DessertHouse/service/serviceimpl/ManagerServiceImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/manager-report.jsp" afterPath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/manager-report.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dao/SaleDao.java" afterPath="$PROJECT_DIR$/src/dao/SaleDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dao/UserDao.java" afterPath="$PROJECT_DIR$/src/dao/UserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dao/daoimpl/SaleDaoImpl.java" afterPath="$PROJECT_DIR$/src/dao/daoimpl/SaleDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dao/daoimpl/UserDaoImpl.java" afterPath="$PROJECT_DIR$/src/dao/daoimpl/UserDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/service/ManagerService.java" afterPath="$PROJECT_DIR$/src/service/ManagerService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/service/serviceimpl/ManagerServiceImpl.java" afterPath="$PROJECT_DIR$/src/service/serviceimpl/ManagerServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/manager-report.js" afterPath="$PROJECT_DIR$/web/js/manager-report.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/manager-report.jsp" afterPath="$PROJECT_DIR$/web/manager-report.jsp" />
     </list>
     <ignored path="DessertHouse.iws" />
@@ -46,22 +39,99 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="manager-report.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="manager-report.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/manager-report.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5462185">
-              <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+            <state vertical-scroll-proportion="-1.4545455">
+              <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manager-report.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="manager-report.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/js/manager-report.js">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.060606">
+              <caret line="365" column="0" selection-start-line="365" selection-start-column="0" selection-end-line="365" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#39#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dessert.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/beans/Dessert.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StoreStats.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/beans/StoreStats.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+              <folding>
+                <element signature="e#312#313#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ManagerServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/service/serviceimpl/ManagerServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="87" column="19" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SaleDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dao/daoimpl/SaleDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="211" column="22" selection-start-line="211" selection-start-column="22" selection-end-line="211" selection-end-column="22" />
+              <folding>
+                <element signature="docComment;class#SaleDaoImpl#0" expanded="false" />
+                <element signature="method#getCommoditiesInStore#0;class#SaleDaoImpl#0" expanded="false" />
+                <element signature="method#getSoldNum#0;class#SaleDaoImpl#0" expanded="false" />
+                <element signature="method#findDessert#0;class#SaleDaoImpl#0" expanded="false" />
+                <element signature="method#updateAccount#0;class#SaleDaoImpl#0" expanded="false" />
+                <marker date="1457011122870" expanded="false" signature="1970:2062" placeholder="insert into dessert... " />
+                <marker date="1457011122870" expanded="false" signature="3017:3031" placeholder="select * fro... dessert" />
+                <marker date="1457011122870" expanded="false" signature="3017:3079" placeholder="select * fro... orders" />
+                <marker date="1457011122870" expanded="true" signature="4195:4232" placeholder="update user " />
+                <marker date="1457011122870" expanded="true" signature="4874:4978" placeholder="select store... store" />
+                <marker date="1457011122870" expanded="true" signature="5801:5821" placeholder="select * fro... orders" />
+                <marker date="1457011122870" expanded="true" signature="5801:5841" placeholder="select * fro... orders" />
+                <marker date="1457011122870" expanded="true" signature="6993:7045" placeholder="select count... user" />
+                <marker date="1457011122870" expanded="true" signature="6993:7071" placeholder="select otota... orders" />
+                <marker date="1457011122870" expanded="true" signature="8413:8477" placeholder="select otota... orders" />
+                <marker date="1457011122870" expanded="true" signature="8413:8489" placeholder="select otota... orders" />
+                <marker date="1457011122870" expanded="true" signature="9303:9379" placeholder="select otota... orders" />
+                <marker date="1457011122870" expanded="true" signature="10184:10262" placeholder="select count... orders" />
+                <marker date="1457011122870" expanded="true" signature="11062:11140" placeholder="select count... orders" />
+                <marker date="1457011122870" expanded="true" signature="11981:12125" placeholder="select * fro... plan" />
+                <marker date="1457011122870" expanded="true" signature="11981:12139" placeholder="select dname... dname" />
+                <marker date="1457011122870" expanded="true" signature="11999:12105" placeholder="select dname... orders" />
+                <marker date="1457011122870" expanded="true" signature="13370:13429" placeholder="select * fro... plan" />
+                <marker date="1457011122870" expanded="false" signature="14703:14752" placeholder="select asold... account" />
+                <marker date="1457011122870" expanded="false" signature="15505:15540" placeholder="select * fro... dessert" />
+                <marker date="1457011122870" expanded="false" signature="16325:16363" placeholder="update desse... " />
+                <marker date="1457011122870" expanded="false" signature="17198:17238" placeholder="update user " />
+                <marker date="1457011122870" expanded="false" signature="17198:17246" placeholder="update accou... " />
+                <marker date="1457011122870" expanded="false" signature="17198:17248" placeholder="update accou... " />
+                <marker date="1457011122870" expanded="false" signature="18124:18158" placeholder="select * fro... dessert" />
+                <marker date="1457011122870" expanded="false" signature="18124:18169" placeholder="select pid f... plan" />
+                <marker date="1457011122870" expanded="false" signature="18124:18183" placeholder="select pid f... plan" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,15 +204,15 @@
         <option value="$PROJECT_DIR$/web/branch-trade.jsp" />
         <option value="$PROJECT_DIR$/web/branch-customer.jsp" />
         <option value="$PROJECT_DIR$/web/js/branch-customer.js" />
-        <option value="$PROJECT_DIR$/src/service/ManagerService.java" />
         <option value="$PROJECT_DIR$/src/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/dao/daoimpl/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/beans/StoreStats.java" />
         <option value="$PROJECT_DIR$/src/dao/SaleDao.java" />
         <option value="$PROJECT_DIR$/src/dao/daoimpl/SaleDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/service/ManagerService.java" />
         <option value="$PROJECT_DIR$/src/service/serviceimpl/ManagerServiceImpl.java" />
-        <option value="$PROJECT_DIR$/web/js/manager-report.js" />
         <option value="$PROJECT_DIR$/web/manager-report.jsp" />
+        <option value="$PROJECT_DIR$/web/js/manager-report.js" />
       </list>
     </option>
   </component>
@@ -196,9 +266,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -513,6 +580,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -530,9 +600,12 @@
     <property name="SearchEverywhereHistoryKey" value="updateprofile&#9;PSI&#9;JAVA://dao.UserDao#updateProfileById&#10;userdao&#9;FILE&#9;file://E:/workspace/DessertHouse/src/dao/daoimpl/UserDaoImpl.java&#10;loginch&#9;PSI&#9;JAVA://dao.UserDao#loginCheck&#10;logincheck&#9;PSI&#9;JAVA://dao.UserDao#loginCheck" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\workspace\DessertHouse\web\WEB-INF\lib" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\workspace\DessertHouse\web\js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\DessertHouse\web\js" />
+      <recent name="E:\workspace\DessertHouse\web\WEB-INF\lib" />
       <recent name="E:\workspace\DessertHouse\src" />
       <recent name="E:\workspace\DessertHouse" />
       <recent name="E:\workspace\DessertHouse\web" />
@@ -1053,7 +1126,8 @@
       <workItem from="1456886114246" duration="4266000" />
       <workItem from="1456927295810" duration="5955000" />
       <workItem from="1456972132329" duration="4813000" />
-      <workItem from="1456985125402" duration="18886000" />
+      <workItem from="1456985125402" duration="34406000" />
+      <workItem from="1457085975024" duration="9021000" />
     </task>
     <task id="LOCAL-00001" summary="增加用户登录时进行状态检查/变更功能">
       <created>1456733266253</created>
@@ -1077,7 +1151,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="257087000" />
+    <option name="totallyTimeSpent" value="281628000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1089,7 +1163,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="59" y="-8" width="1315" height="784" extended-state="7" />
+    <frame x="59" y="-8" width="1315" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -1100,10 +1174,10 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17357911" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34715822" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19681275" sideWeight="0.825" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17370518" sideWeight="0.825" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17247707" sideWeight="0.175" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1115,8 +1189,34 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33026114" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36334404" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17453963" sideWeight="0.825" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17247707" sideWeight="0.175" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1149,28 +1249,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/beans/Commodity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/navbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/navbar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5739645">
-          <caret line="91" column="1" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/daoimpl/EmployeeDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.2291105">
@@ -1262,17 +1340,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5175202">
           <caret line="26" column="60" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1398#1399#0" expanded="false" />
-            <element signature="e#1426#1427#0" expanded="false" />
-            <element signature="e#1467#1468#0" expanded="false" />
-            <element signature="e#1501#1502#0" expanded="false" />
-            <element signature="e#1536#1537#0" expanded="false" />
-            <element signature="e#1567#1568#0" expanded="false" />
-            <element signature="e#1615#1616#0" expanded="false" />
-            <element signature="e#1655#1656#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1318,14 +1385,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3809524">
           <caret line="27" column="16" selection-start-line="13" selection-start-column="4" selection-end-line="27" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/user-main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.512">
-          <caret line="89" column="4" selection-start-line="89" selection-start-column="4" selection-end-line="91" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -1381,23 +1440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6502463">
           <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/user-vip.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.4848485">
-          <caret line="205" column="27" selection-start-line="205" selection-start-column="27" selection-end-line="205" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/head-dessert.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5757575">
-          <caret line="115" column="13" selection-start-line="110" selection-start-column="15" selection-end-line="115" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1405,7 +1447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0960961">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1413,7 +1454,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6486486">
           <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1421,58 +1461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23762377">
           <caret line="5" column="20" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/user-main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2252252">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <marker date="1456832762608" expanded="true" signature="534:690" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="541:683" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="545:675" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="1591:3922" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="1655:3850" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="1655:3886" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="1655:3922" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="1708:3469" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="1708:3850" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="1760:1997" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="2132:2135" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="2132:3469" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="2135:2200" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="2135:2276" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="2135:2419" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="2135:2592" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="2135:2600" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="2135:2729" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="2135:2747" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="2135:2748" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="2135:2821" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="2135:2884" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="2135:2903" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="2135:2968" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="2135:3077" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="2135:3145" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="2135:3233" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="2135:3303" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="2135:3347" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="2135:3463" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="3521:3667" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="3521:3699" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="3521:3777" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="4060:6573" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="4128:6537" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="4185:6501" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="4241:4490" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="4577:6465" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="4635:6119" placeholder="..." />
-            <marker date="1456832762608" expanded="true" signature="6171:6428" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1488,9 +1476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4234234">
           <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1514,7 +1499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1522,24 +1506,116 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.5555556">
           <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/daoimpl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.051447">
+          <caret line="174" column="0" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
+          <folding>
+            <element signature="e#5434#5435#0" expanded="false" />
+            <element signature="e#5476#5477#0" expanded="false" />
+            <marker date="1457001135921" expanded="true" signature="904:983" placeholder="insert into user... " />
+            <marker date="1457001135921" expanded="true" signature="1874:1908" placeholder="select * fro... user" />
+            <marker date="1457001135921" expanded="true" signature="3228:3286" placeholder="update user " />
+            <marker date="1457001135921" expanded="true" signature="4056:4071" placeholder="update user " />
+            <marker date="1457001135921" expanded="true" signature="4931:4956" placeholder="select count... user" />
+            <marker date="1457001135921" expanded="true" signature="6010:6074" placeholder="select count... user" />
+            <marker date="1457001135921" expanded="true" signature="6781:6816" placeholder="update user " />
+            <marker date="1457001135921" expanded="true" signature="7378:7415" placeholder="update user " />
+            <marker date="1457001135921" expanded="true" signature="7996:8050" placeholder="insert into recharge... " />
+            <marker date="1457001135921" expanded="true" signature="8750:8810" placeholder="select count... user" />
+            <marker date="1457001135921" expanded="true" signature="10342:10396" placeholder="select * fro... recharge" />
+            <marker date="1457001135921" expanded="true" signature="11359:11414" placeholder="select * fro... recharge" />
+            <marker date="1457001135921" expanded="true" signature="12310:12345" placeholder="select etype... employee" />
+            <marker date="1457001135921" expanded="true" signature="13231:13256" placeholder="select * fro... use_bonus" />
+            <marker date="1457001135921" expanded="true" signature="13231:13265" placeholder="select * fro... user" />
+            <marker date="1457001135921" expanded="true" signature="14608:14640" placeholder="select count... user" />
+            <marker date="1457001135921" expanded="true" signature="14608:14646" placeholder="select count... user" />
+            <marker date="1457001135921" expanded="true" signature="14608:14658" placeholder="select count... user" />
+            <marker date="1457001135921" expanded="true" signature="15398:15431" placeholder="select count... user" />
+            <marker date="1457001135921" expanded="true" signature="15398:15436" placeholder="select count... user" />
+            <marker date="1457001135921" expanded="true" signature="16111:16158" placeholder="update user " />
+            <marker date="1457001135921" expanded="true" signature="16916:16970" placeholder="insert into use_bonus... " />
+            <marker date="1457001135921" expanded="true" signature="18495:18536" placeholder="select count... user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23151125">
+          <caret line="69" column="23" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user-main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29411766">
+          <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="77" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/beans/StoreStats.java">
+    <entry file="file://$PROJECT_DIR$/web/head-dessert.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5092749">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding>
-            <element signature="e#312#313#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-39.272728">
+          <caret line="81" column="40" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user-vip.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="10.423983">
+          <caret line="208" column="19" selection-start-line="208" selection-start-column="19" selection-end-line="208" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/user-main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18701299">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/Chart.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/ManagerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/DessertDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33242506">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/SaleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/daoimpl/SaleDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.168634">
-          <caret line="333" column="21" selection-start-line="333" selection-start-column="21" selection-end-line="333" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="211" column="22" selection-start-line="211" selection-start-column="22" selection-end-line="211" selection-end-column="22" />
           <folding>
             <element signature="docComment;class#SaleDaoImpl#0" expanded="false" />
             <element signature="method#getCommoditiesInStore#0;class#SaleDaoImpl#0" expanded="false" />
@@ -1579,83 +1655,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/service/serviceimpl/ManagerServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59967846">
-          <caret line="80" column="42" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="87" column="19" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/SaleDao.java">
+    <entry file="file://$PROJECT_DIR$/src/beans/StoreStats.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69131833">
-          <caret line="24" column="67" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/ManagerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5016077">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/daoimpl/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.051447">
-          <caret line="174" column="0" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
           <folding>
-            <element signature="e#5434#5435#0" expanded="true" />
-            <element signature="e#5476#5477#0" expanded="true" />
-            <marker date="1457001135921" expanded="true" signature="904:983" placeholder="insert into user... " />
-            <marker date="1457001135921" expanded="true" signature="1874:1908" placeholder="select * fro... user" />
-            <marker date="1457001135921" expanded="true" signature="3228:3286" placeholder="update user " />
-            <marker date="1457001135921" expanded="true" signature="4056:4071" placeholder="update user " />
-            <marker date="1457001135921" expanded="true" signature="4931:4956" placeholder="select count... user" />
-            <marker date="1457001135921" expanded="true" signature="6010:6074" placeholder="select count... user" />
-            <marker date="1457001135921" expanded="true" signature="6781:6816" placeholder="update user " />
-            <marker date="1457001135921" expanded="true" signature="7378:7415" placeholder="update user " />
-            <marker date="1457001135921" expanded="true" signature="7996:8050" placeholder="insert into recharge... " />
-            <marker date="1457001135921" expanded="true" signature="8750:8810" placeholder="select count... user" />
-            <marker date="1457001135921" expanded="true" signature="10342:10396" placeholder="select * fro... recharge" />
-            <marker date="1457001135921" expanded="true" signature="11359:11414" placeholder="select * fro... recharge" />
-            <marker date="1457001135921" expanded="true" signature="12310:12345" placeholder="select etype... employee" />
-            <marker date="1457001135921" expanded="true" signature="13231:13256" placeholder="select * fro... use_bonus" />
-            <marker date="1457001135921" expanded="true" signature="13231:13265" placeholder="select * fro... user" />
-            <marker date="1457001135921" expanded="true" signature="14608:14640" placeholder="select count... user" />
-            <marker date="1457001135921" expanded="true" signature="14608:14646" placeholder="select count... user" />
-            <marker date="1457001135921" expanded="true" signature="14608:14658" placeholder="select count... user" />
-            <marker date="1457001135921" expanded="true" signature="15398:15431" placeholder="select count... user" />
-            <marker date="1457001135921" expanded="true" signature="15398:15436" placeholder="select count... user" />
-            <marker date="1457001135921" expanded="true" signature="16111:16158" placeholder="update user " />
-            <marker date="1457001135921" expanded="true" signature="16916:16970" placeholder="insert into use_bonus... " />
-            <marker date="1457001135921" expanded="true" signature="18495:18536" placeholder="select count... user" />
+            <element signature="e#312#313#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23151125">
-          <caret line="69" column="23" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/manager-report.js">
+    <entry file="file://$PROJECT_DIR$/src/beans/Dessert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/manager-report.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5462185">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        <state vertical-scroll-proportion="-1.4545455">
+          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/manager-report.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.060606">
+          <caret line="365" column="0" selection-start-line="365" selection-start-column="0" selection-end-line="365" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

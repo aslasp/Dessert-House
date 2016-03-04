@@ -3,6 +3,7 @@ package service;
 import beans.Plan;
 
 import java.util.ArrayList;
+import java.util.Map;
 
 /**
  * Created by wn13 on 2016/2/23.
@@ -25,7 +26,7 @@ public interface ManagerService {
      * 8 热卖产品前3名
      * @return
      */
-    String getStatsJson();
+    Map<String,Object> getStatsMap();
 
 
 
