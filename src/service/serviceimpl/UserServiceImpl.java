@@ -20,6 +20,9 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public void register(User user) {
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String timeNow = sdf.format(new Date());
+        user.setReg_time(timeNow);
         user.setUid(generateUid());
         userDao.createNew(user);
     }

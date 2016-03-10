@@ -5,7 +5,7 @@ package beans;
  */
 public class User {
     private int uid,uage,usex,ustatus,ulevel;
-    private String uname,upswd,uaddr,ucard,uactivate_time;
+    private String uname,upswd,uaddr,ucard,uactivate_time,reg_time;
     private double ubonus,ubalance,utotal_recharge;
 
     public int getUage() {
@@ -110,5 +110,13 @@ public class User {
 
     public void setUtotal_recharge(double utotal_recharge) {
         this.utotal_recharge = utotal_recharge;
+    }
+
+    public String getReg_time() {
+        return reg_time;
+    }
+
+    public void setReg_time(String reg_time) {
+        this.reg_time = reg_time;
     }
 }

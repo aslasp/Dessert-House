@@ -2,21 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef356710-6559-46e0-9184-0461a321be88" name="Default" comment="正在写在线预订功能，目前在写界面：选择一个商店获得商品列表，需要学习struts2 json">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/Chart.min.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/js/china.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/js/echarts.common.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/china.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/echarts.common.min.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/service/ManagerService.class" afterPath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/service/ManagerService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/service/serviceimpl/ManagerServiceImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/service/serviceimpl/ManagerServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DessertHouse/service/ManagerService.class" afterPath="$PROJECT_DIR$/out/production/DessertHouse/service/ManagerService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DessertHouse/service/serviceimpl/ManagerServiceImpl.class" afterPath="$PROJECT_DIR$/out/production/DessertHouse/service/serviceimpl/ManagerServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/数据库定义.docx" afterPath="$PROJECT_DIR$/docs/数据库定义.docx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/beans/User.class" afterPath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/beans/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/dao/daoimpl/UserDaoImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/dao/daoimpl/UserDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/service/serviceimpl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/WEB-INF/classes/service/serviceimpl/UserServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DessertHouse/beans/User.class" afterPath="$PROJECT_DIR$/out/production/DessertHouse/beans/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DessertHouse/dao/daoimpl/UserDaoImpl.class" afterPath="$PROJECT_DIR$/out/production/DessertHouse/dao/daoimpl/UserDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DessertHouse/service/serviceimpl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/out/production/DessertHouse/service/serviceimpl/UserServiceImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/manager-report.jsp" afterPath="$PROJECT_DIR$/out/artifacts/DessertHouse_war_exploded/manager-report.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/service/ManagerService.java" afterPath="$PROJECT_DIR$/src/service/ManagerService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/service/serviceimpl/ManagerServiceImpl.java" afterPath="$PROJECT_DIR$/src/service/serviceimpl/ManagerServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/manager-report.js" afterPath="$PROJECT_DIR$/web/js/manager-report.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/manager-report.jsp" afterPath="$PROJECT_DIR$/web/manager-report.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/beans/User.java" afterPath="$PROJECT_DIR$/src/beans/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dao/daoimpl/UserDaoImpl.java" afterPath="$PROJECT_DIR$/src/dao/daoimpl/UserDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/service/serviceimpl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/service/serviceimpl/UserServiceImpl.java" />
     </list>
     <ignored path="DessertHouse.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,99 +35,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="manager-report.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="manager-report.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/manager-report.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.4545455">
-              <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.46022728">
+              <caret line="99" column="62" selection-start-line="99" selection-start-column="62" selection-end-line="99" selection-end-column="62" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manager-report.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/js/manager-report.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.060606">
-              <caret line="365" column="0" selection-start-line="365" selection-start-column="0" selection-end-line="365" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#39#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dessert.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/beans/Dessert.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StoreStats.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/beans/StoreStats.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-              <folding>
-                <element signature="e#312#313#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ManagerServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/service/serviceimpl/ManagerServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="87" column="19" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SaleDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dao/daoimpl/SaleDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="211" column="22" selection-start-line="211" selection-start-column="22" selection-end-line="211" selection-end-column="22" />
-              <folding>
-                <element signature="docComment;class#SaleDaoImpl#0" expanded="false" />
-                <element signature="method#getCommoditiesInStore#0;class#SaleDaoImpl#0" expanded="false" />
-                <element signature="method#getSoldNum#0;class#SaleDaoImpl#0" expanded="false" />
-                <element signature="method#findDessert#0;class#SaleDaoImpl#0" expanded="false" />
-                <element signature="method#updateAccount#0;class#SaleDaoImpl#0" expanded="false" />
-                <marker date="1457011122870" expanded="false" signature="1970:2062" placeholder="insert into dessert... " />
-                <marker date="1457011122870" expanded="false" signature="3017:3031" placeholder="select * fro... dessert" />
-                <marker date="1457011122870" expanded="false" signature="3017:3079" placeholder="select * fro... orders" />
-                <marker date="1457011122870" expanded="true" signature="4195:4232" placeholder="update user " />
-                <marker date="1457011122870" expanded="true" signature="4874:4978" placeholder="select store... store" />
-                <marker date="1457011122870" expanded="true" signature="5801:5821" placeholder="select * fro... orders" />
-                <marker date="1457011122870" expanded="true" signature="5801:5841" placeholder="select * fro... orders" />
-                <marker date="1457011122870" expanded="true" signature="6993:7045" placeholder="select count... user" />
-                <marker date="1457011122870" expanded="true" signature="6993:7071" placeholder="select otota... orders" />
-                <marker date="1457011122870" expanded="true" signature="8413:8477" placeholder="select otota... orders" />
-                <marker date="1457011122870" expanded="true" signature="8413:8489" placeholder="select otota... orders" />
-                <marker date="1457011122870" expanded="true" signature="9303:9379" placeholder="select otota... orders" />
-                <marker date="1457011122870" expanded="true" signature="10184:10262" placeholder="select count... orders" />
-                <marker date="1457011122870" expanded="true" signature="11062:11140" placeholder="select count... orders" />
-                <marker date="1457011122870" expanded="true" signature="11981:12125" placeholder="select * fro... plan" />
-                <marker date="1457011122870" expanded="true" signature="11981:12139" placeholder="select dname... dname" />
-                <marker date="1457011122870" expanded="true" signature="11999:12105" placeholder="select dname... orders" />
-                <marker date="1457011122870" expanded="true" signature="13370:13429" placeholder="select * fro... plan" />
-                <marker date="1457011122870" expanded="false" signature="14703:14752" placeholder="select asold... account" />
-                <marker date="1457011122870" expanded="false" signature="15505:15540" placeholder="select * fro... dessert" />
-                <marker date="1457011122870" expanded="false" signature="16325:16363" placeholder="update desse... " />
-                <marker date="1457011122870" expanded="false" signature="17198:17238" placeholder="update user " />
-                <marker date="1457011122870" expanded="false" signature="17198:17246" placeholder="update accou... " />
-                <marker date="1457011122870" expanded="false" signature="17198:17248" placeholder="update accou... " />
-                <marker date="1457011122870" expanded="false" signature="18124:18158" placeholder="select * fro... dessert" />
-                <marker date="1457011122870" expanded="false" signature="18124:18169" placeholder="select pid f... plan" />
-                <marker date="1457011122870" expanded="false" signature="18124:18183" placeholder="select pid f... plan" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -162,7 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/user-changePswdError.html" />
         <option value="$PROJECT_DIR$/web/user-changeProfileSuccess.html" />
         <option value="$PROJECT_DIR$/web/register-success.jsp" />
         <option value="$PROJECT_DIR$/src/service/CookieService.java" />
@@ -180,7 +88,6 @@
         <option value="$PROJECT_DIR$/src/factory/DaoFactory.java" />
         <option value="$PROJECT_DIR$/src/beans/Commodity.java" />
         <option value="$PROJECT_DIR$/src/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/service/serviceimpl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/action/user/AjaxGetCommodityAction.java" />
         <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/web/css/navbar.css" />
@@ -205,14 +112,16 @@
         <option value="$PROJECT_DIR$/web/branch-customer.jsp" />
         <option value="$PROJECT_DIR$/web/js/branch-customer.js" />
         <option value="$PROJECT_DIR$/src/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/dao/daoimpl/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/beans/StoreStats.java" />
         <option value="$PROJECT_DIR$/src/dao/SaleDao.java" />
         <option value="$PROJECT_DIR$/src/dao/daoimpl/SaleDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/service/ManagerService.java" />
         <option value="$PROJECT_DIR$/src/service/serviceimpl/ManagerServiceImpl.java" />
-        <option value="$PROJECT_DIR$/web/manager-report.jsp" />
+        <option value="$PROJECT_DIR$/src/beans/User.java" />
+        <option value="$PROJECT_DIR$/src/service/serviceimpl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/dao/daoimpl/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/web/js/manager-report.js" />
+        <option value="$PROJECT_DIR$/web/manager-report.jsp" />
       </list>
     </option>
   </component>
@@ -266,6 +175,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -273,10 +184,6 @@
               <option name="myItemId" value="DessertHouse" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -285,304 +192,12 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="DessertHouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DessertHouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DessertHouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DessertHouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DessertHouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DessertHouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DessertHouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DessertHouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DessertHouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DessertHouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DessertHouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="serviceimpl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DessertHouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DessertHouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="factory" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DessertHouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DessertHouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DessertHouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DessertHouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="daoimpl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DessertHouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DessertHouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="beans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DessertHouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DessertHouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="action" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DessertHouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DessertHouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="action" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DessertHouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DessertHouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="action" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="employee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DessertHouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DessertHouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="action" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="employee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="head" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DessertHouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DessertHouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="action" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="employee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="branch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DessertHouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DessertHouse" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="docs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1127,7 +742,13 @@
       <workItem from="1456927295810" duration="5955000" />
       <workItem from="1456972132329" duration="4813000" />
       <workItem from="1456985125402" duration="34406000" />
-      <workItem from="1457085975024" duration="9021000" />
+      <workItem from="1457085975024" duration="9112000" />
+      <workItem from="1457109420185" duration="598000" />
+      <workItem from="1457318809791" duration="3055000" />
+      <workItem from="1457342128969" duration="638000" />
+      <workItem from="1457489736199" duration="688000" />
+      <workItem from="1457503076266" duration="1290000" />
+      <workItem from="1457589913903" duration="904000" />
     </task>
     <task id="LOCAL-00001" summary="增加用户登录时进行状态检查/变更功能">
       <created>1456733266253</created>
@@ -1151,7 +772,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="281628000" />
+    <option name="totallyTimeSpent" value="288892000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1164,7 +785,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="-8" width="1315" height="784" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33026114" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1174,10 +795,10 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34715822" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3640553" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17370518" sideWeight="0.825" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17370518" sideWeight="0.825" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17247707" sideWeight="0.175" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1249,52 +870,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/dao/daoimpl/EmployeeDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.2291105">
-          <caret line="154" column="21" selection-start-line="135" selection-start-column="8" selection-end-line="154" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/daoimpl/DessertDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61290324">
-          <caret line="122" column="159" selection-start-line="122" selection-start-column="82" selection-end-line="122" selection-end-column="159" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/PlanDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0700809">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/daoimpl/StoreDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19407009">
-          <caret line="113" column="8" selection-start-line="113" selection-start-column="8" selection-end-line="117" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/user-buysuccess.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5454545">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/user-changeProfileSuccess.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/daoimpl/PlanDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.474394">
-          <caret line="56" column="16" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1316,7 +895,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4260355">
           <caret line="96" column="104" selection-start-line="96" selection-start-column="24" selection-end-line="96" selection-end-column="104" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1324,7 +902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="5.112426">
           <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="73" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1332,7 +909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.65976334">
           <caret line="78" column="4" selection-start-line="78" selection-start-column="4" selection-end-line="79" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1344,13 +920,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/struts-user.xml">
-      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1850649">
           <caret line="55" column="50" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/action/employee/LoginAction.java">
@@ -1385,7 +961,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3809524">
           <caret line="27" column="16" selection-start-line="13" selection-start-column="4" selection-end-line="27" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1414,7 +989,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5689655">
           <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1426,27 +1000,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/struts-employee.xml">
-      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11143695">
           <caret line="99" column="70" selection-start-line="99" selection-start-column="70" selection-end-line="99" selection-end-column="70" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/action/employee/branch/TradeAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6502463">
           <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/beans/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0960961">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1468,7 +1034,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.88">
           <caret line="146" column="93" selection-start-line="146" selection-start-column="93" selection-end-line="146" selection-end-column="93" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1483,7 +1048,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.88">
           <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1491,7 +1055,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.64">
           <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1509,40 +1072,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/daoimpl/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.051447">
-          <caret line="174" column="0" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
-          <folding>
-            <element signature="e#5434#5435#0" expanded="false" />
-            <element signature="e#5476#5477#0" expanded="false" />
-            <marker date="1457001135921" expanded="true" signature="904:983" placeholder="insert into user... " />
-            <marker date="1457001135921" expanded="true" signature="1874:1908" placeholder="select * fro... user" />
-            <marker date="1457001135921" expanded="true" signature="3228:3286" placeholder="update user " />
-            <marker date="1457001135921" expanded="true" signature="4056:4071" placeholder="update user " />
-            <marker date="1457001135921" expanded="true" signature="4931:4956" placeholder="select count... user" />
-            <marker date="1457001135921" expanded="true" signature="6010:6074" placeholder="select count... user" />
-            <marker date="1457001135921" expanded="true" signature="6781:6816" placeholder="update user " />
-            <marker date="1457001135921" expanded="true" signature="7378:7415" placeholder="update user " />
-            <marker date="1457001135921" expanded="true" signature="7996:8050" placeholder="insert into recharge... " />
-            <marker date="1457001135921" expanded="true" signature="8750:8810" placeholder="select count... user" />
-            <marker date="1457001135921" expanded="true" signature="10342:10396" placeholder="select * fro... recharge" />
-            <marker date="1457001135921" expanded="true" signature="11359:11414" placeholder="select * fro... recharge" />
-            <marker date="1457001135921" expanded="true" signature="12310:12345" placeholder="select etype... employee" />
-            <marker date="1457001135921" expanded="true" signature="13231:13256" placeholder="select * fro... use_bonus" />
-            <marker date="1457001135921" expanded="true" signature="13231:13265" placeholder="select * fro... user" />
-            <marker date="1457001135921" expanded="true" signature="14608:14640" placeholder="select count... user" />
-            <marker date="1457001135921" expanded="true" signature="14608:14646" placeholder="select count... user" />
-            <marker date="1457001135921" expanded="true" signature="14608:14658" placeholder="select count... user" />
-            <marker date="1457001135921" expanded="true" signature="15398:15431" placeholder="select count... user" />
-            <marker date="1457001135921" expanded="true" signature="15398:15436" placeholder="select count... user" />
-            <marker date="1457001135921" expanded="true" signature="16111:16158" placeholder="update user " />
-            <marker date="1457001135921" expanded="true" signature="16916:16970" placeholder="insert into use_bonus... " />
-            <marker date="1457001135921" expanded="true" signature="18495:18536" placeholder="select count... user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23151125">
@@ -1554,7 +1083,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29411766">
           <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="77" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1562,7 +1090,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-39.272728">
           <caret line="81" column="40" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1570,7 +1097,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="10.423983">
           <caret line="208" column="19" selection-start-line="208" selection-start-column="19" selection-end-line="208" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1592,7 +1118,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1600,7 +1125,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33242506">
           <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1608,48 +1132,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/daoimpl/SaleDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="211" column="22" selection-start-line="211" selection-start-column="22" selection-end-line="211" selection-end-column="22" />
-          <folding>
-            <element signature="docComment;class#SaleDaoImpl#0" expanded="false" />
-            <element signature="method#getCommoditiesInStore#0;class#SaleDaoImpl#0" expanded="false" />
-            <element signature="method#getSoldNum#0;class#SaleDaoImpl#0" expanded="false" />
-            <element signature="method#findDessert#0;class#SaleDaoImpl#0" expanded="false" />
-            <element signature="method#updateAccount#0;class#SaleDaoImpl#0" expanded="false" />
-            <marker date="1457011122870" expanded="false" signature="1970:2062" placeholder="insert into dessert... " />
-            <marker date="1457011122870" expanded="false" signature="3017:3031" placeholder="select * fro... dessert" />
-            <marker date="1457011122870" expanded="false" signature="3017:3079" placeholder="select * fro... orders" />
-            <marker date="1457011122870" expanded="true" signature="4195:4232" placeholder="update user " />
-            <marker date="1457011122870" expanded="true" signature="4874:4978" placeholder="select store... store" />
-            <marker date="1457011122870" expanded="true" signature="5801:5821" placeholder="select * fro... orders" />
-            <marker date="1457011122870" expanded="true" signature="5801:5841" placeholder="select * fro... orders" />
-            <marker date="1457011122870" expanded="true" signature="6993:7045" placeholder="select count... user" />
-            <marker date="1457011122870" expanded="true" signature="6993:7071" placeholder="select otota... orders" />
-            <marker date="1457011122870" expanded="true" signature="8413:8477" placeholder="select otota... orders" />
-            <marker date="1457011122870" expanded="true" signature="8413:8489" placeholder="select otota... orders" />
-            <marker date="1457011122870" expanded="true" signature="9303:9379" placeholder="select otota... orders" />
-            <marker date="1457011122870" expanded="true" signature="10184:10262" placeholder="select count... orders" />
-            <marker date="1457011122870" expanded="true" signature="11062:11140" placeholder="select count... orders" />
-            <marker date="1457011122870" expanded="true" signature="11981:12125" placeholder="select * fro... plan" />
-            <marker date="1457011122870" expanded="true" signature="11981:12139" placeholder="select dname... dname" />
-            <marker date="1457011122870" expanded="true" signature="11999:12105" placeholder="select dname... orders" />
-            <marker date="1457011122870" expanded="true" signature="13370:13429" placeholder="select * fro... plan" />
-            <marker date="1457011122870" expanded="false" signature="14703:14752" placeholder="select asold... account" />
-            <marker date="1457011122870" expanded="false" signature="15505:15540" placeholder="select * fro... dessert" />
-            <marker date="1457011122870" expanded="false" signature="16325:16363" placeholder="update desse... " />
-            <marker date="1457011122870" expanded="false" signature="17198:17238" placeholder="update user " />
-            <marker date="1457011122870" expanded="false" signature="17198:17246" placeholder="update accou... " />
-            <marker date="1457011122870" expanded="false" signature="17198:17248" placeholder="update accou... " />
-            <marker date="1457011122870" expanded="false" signature="18124:18158" placeholder="select * fro... dessert" />
-            <marker date="1457011122870" expanded="false" signature="18124:18169" placeholder="select pid f... plan" />
-            <marker date="1457011122870" expanded="false" signature="18124:18183" placeholder="select pid f... plan" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1657,7 +1139,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="87" column="19" selection-start-line="87" selection-start-column="19" selection-end-line="87" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1665,35 +1146,91 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding>
-            <element signature="e#312#313#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/beans/Dessert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.19101124">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/manager-report.jsp">
+    <entry file="file://$PROJECT_DIR$/src/beans/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4545455">
-          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
-          <folding />
+        <state vertical-scroll-proportion="0.49919742">
+          <caret line="114" column="33" selection-start-line="114" selection-start-column="33" selection-end-line="114" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/daoimpl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1540931">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/daoimpl/StoreDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3322091">
+          <caret line="125" column="25" selection-start-line="125" selection-start-column="24" selection-end-line="125" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/daoimpl/SaleDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3322091">
+          <caret line="51" column="18" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/daoimpl/EmployeeDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3322091">
+          <caret line="35" column="25" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/daoimpl/PlanDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3322091">
+          <caret line="70" column="25" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/daoimpl/DessertDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3322091">
+          <caret line="38" column="25" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/daoimpl/DaoHelperImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3322091">
+          <caret line="25" column="54" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/serviceimpl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6762226">
+          <caret line="136" column="42" selection-start-line="136" selection-start-column="38" selection-end-line="136" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/manager-report.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.060606">
-          <caret line="365" column="0" selection-start-line="365" selection-start-column="0" selection-end-line="365" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.121212125">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/manager-report.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46022728">
+          <caret line="99" column="62" selection-start-line="99" selection-start-column="62" selection-end-line="99" selection-end-column="62" />
+          <folding />
         </state>
       </provider>
     </entry>

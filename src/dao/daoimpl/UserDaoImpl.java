@@ -35,7 +35,7 @@ public class UserDaoImpl implements UserDao {
         Connection con=daoHelper.getConnection();
         PreparedStatement stmt=null;
         try {
-            stmt=con.prepareStatement("insert into user (uid,uname,upswd,uage,usex,uaddr,ucard) values (?,?,?,?,?,?,?);");
+            stmt=con.prepareStatement("insert into user (uid,uname,upswd,uage,usex,uaddr,ucard,reg_time) values (?,?,?,?,?,?,?,?);");
             stmt.setInt(1,user.getUid());
             stmt.setString(2,user.getUname());
             stmt.setString(3,user.getUpswd());
@@ -43,6 +43,7 @@ public class UserDaoImpl implements UserDao {
             stmt.setInt(5,user.getUsex());
             stmt.setString(6,user.getUaddr());
             stmt.setString(7,user.getUcard());
+            stmt.setString(8,user.getReg_time());
             stmt.executeUpdate();
         }catch (SQLException e) {
             // TODO Auto-generated catch block
@@ -79,6 +80,7 @@ public class UserDaoImpl implements UserDao {
                 tmp.setUbonus(rs.getDouble(11));
                 tmp.setUstatus(rs.getInt(12));
                 tmp.setUactivate_time(rs.getString(13));
+                tmp.setReg_time(rs.getString(14));
                 list.add(tmp);
             }
         }catch (SQLException e) {
@@ -418,6 +420,7 @@ public class UserDaoImpl implements UserDao {
                 tmp.setUbonus(rs.getDouble(11));
                 tmp.setUstatus(rs.getInt(12));
                 tmp.setUactivate_time(rs.getString(13));
+                tmp.setReg_time(rs.getString(14));
                 list.add(tmp);
             }
         } catch (SQLException e) {
